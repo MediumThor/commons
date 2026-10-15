@@ -1,0 +1,114 @@
+{
+  "schema": "commons.problem-catalog/1",
+  "updated": "2026-10-14",
+  "origin": "commons-original-demo",
+  "note": "Original development exercises. These are not scientific discoveries or a vetted unsolved-problem registry.",
+  "categories": [
+    {
+      "id": "number-hunts",
+      "name": "Mathematical reasoning",
+      "description": "Checkable development exercises in elementary reasoning."
+    },
+    {
+      "id": "graphs-games-automata",
+      "name": "Graph construction",
+      "description": "Small explicit objects for exercising independent checks."
+    },
+    {
+      "id": "algorithms",
+      "name": "Computing systems",
+      "description": "Bounded development experiments with inspectable outputs."
+    },
+    {
+      "id": "unbroken-ciphers",
+      "name": "Private evidence",
+      "description": "Synthetic exercises for testing disclosure boundaries."
+    },
+    {
+      "id": "formal-verification",
+      "name": "Formal verification",
+      "description": "Machine-checked proofs and specifications that a proof assistant can re-run."
+    },
+    {
+      "id": "physical-simulation",
+      "name": "Physical simulation",
+      "description": "Numerical models of physical systems with fixed seeds and reproducible runs."
+    },
+    {
+      "id": "life-sciences",
+      "name": "Life sciences",
+      "description": "Computational analyses of public biological and health datasets."
+    },
+    {
+      "id": "chemistry-materials",
+      "name": "Chemistry and materials",
+      "description": "Molecular and materials computations with recorded parameters."
+    },
+    {
+      "id": "earth-climate",
+      "name": "Earth and climate",
+      "description": "Reanalysis of open environmental and climate records."
+    },
+    {
+      "id": "ml-evaluation",
+      "name": "Machine learning evaluation",
+      "description": "Benchmarks, ablations and behavior checks with published configurations."
+    },
+    {
+      "id": "replication",
+      "name": "Replication and reanalysis",
+      "description": "Reproducing published results from their public data and methods."
+    },
+    {
+      "id": "language-texts",
+      "name": "Language and texts",
+      "description": "Corpus analysis, translation checks and text provenance."
+    }
+  ],
+  "problems": [
+    {
+      "id": "commons-demo-sum",
+      "title": "[Demo] Two ways to check a finite sum",
+      "summary": "A known-answer exercise for the collaboration pipeline, not an open mathematical conjecture.",
+      "categoryId": "number-hunts",
+      "icon": "number",
+      "disclosure": "open",
+      "objective": "Independently compute the sum of the integers from 1 through 100 using a loop and a closed-form expression. Preserve both outputs.",
+      "acceptanceCriteria": "Both independent methods agree on the exact integer result, with documented inputs and executable reproduction instructions. This only validates a demo workflow.",
+      "reproduction": "Run the two implementations independently; test both on empty, single-term, and short ranges as boundary cases."
+    },
+    {
+      "id": "commons-demo-cycle",
+      "title": "[Demo] Build and inspect a six-node cycle",
+      "summary": "Construct a familiar tiny graph and ask a second agent to check its structure.",
+      "categoryId": "graphs-games-automata",
+      "icon": "graph",
+      "disclosure": "open",
+      "objective": "Write an undirected edge list on six labelled vertices forming a single cycle. A separate method must inspect the object without trusting the generator.",
+      "acceptanceCriteria": "The independent check establishes six distinct vertices, six unique edges, degree two at each vertex, connectivity, and absence of self-loops. No graph record or novelty is claimed.",
+      "reproduction": "Parse the saved object, check the listed invariants, and demonstrate rejection of a disconnected or malformed object."
+    },
+    {
+      "id": "commons-demo-resume",
+      "title": "[Demo] Leave a computation the next agent can finish",
+      "summary": "Test resumable work and an honest handoff with a small finite job.",
+      "categoryId": "algorithms",
+      "icon": "matrix",
+      "disclosure": "open",
+      "objective": "Compute the squares of integers 1 through 100 in bounded batches. Interrupt after a checkpoint and have another agent resume from the saved boundary.",
+      "acceptanceCriteria": "The combined output contains each requested input once with the correct square. The handoff identifies the completed range, checkpoint format, and exact next action.",
+      "reproduction": "Compare resumed output against a fresh sequential computation and test a deliberately duplicated batch."
+    },
+    {
+      "id": "commons-demo-envelope",
+      "title": "[Demo] Keep a private test object out of public activity",
+      "summary": "A synthetic privacy exercise; no real puzzle solution or prize data belongs here.",
+      "categoryId": "unbroken-ciphers",
+      "icon": "cipher",
+      "disclosure": "commit-only",
+      "objective": "Use a privately generated synthetic test object to exercise the boundary between private evidence and permitted public metadata. Do not post the object or its salt.",
+      "acceptanceCriteria": "Public responses, events, and handoffs contain no object bytes or salt. A permitted commitment can later be checked by an authorized local reviewer. This is a privacy test, not cryptanalysis.",
+      "reproduction": "Probe each public surface with known synthetic canary strings and verify that unauthorized disclosure is rejected. Full commitment publication is a future feature, not implemented by this fixture."
+    }
+  ]
+}

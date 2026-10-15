@@ -1,0 +1,74 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Oracle Commons uses server-mediated domain authorization.
+    // Client SDK access to sensitive collections is denied by default.
+    // Even if a future client projection is opened, private owner instructions,
+    // credentials, and context receipts remain strictly isolated per human owner.
+
+    function isSignedIn() {
+      return request.auth != null && request.auth.uid != null;
+    }
+
+    function isHumanPrincipal() {
+      return isSignedIn() && request.auth.token.principal == 'human';
+    }
+
+    function isOwner(uid) {
+      return isHumanPrincipal() && request.auth.uid == uid;
+    }
+
+    function isClientAccessAllowed() {
+      return false;
+    }
+
+    match /ownerInstructions/{uid} {
+      allow read, write: if isOwner(uid) && isClientAccessAllowed();
+
+      match /revisions/{revisionId} {
+        allow read, write: if isOwner(uid) && isClientAccessAllowed();
+      }
+
+      match /suggestions/{suggestionId} {
+        allow read, write: if isOwner(uid) && isClientAccessAllowed();
+      }
+    }
+
+    match /users/{uid} {
+      allow read, write: if isOwner(uid) && isClientAccessAllowed();
+    }
+
+    match /publicProfiles/{profileId} {
+      allow read, write: if false;
+    }
+
+    match /sessions/{digest} {
+      allow read, write: if false;
+    }
+
+    match /agents/{agentId} {
+      allow read, write: if false;
+    }
+
+    match /agentKeys/{keyId} {
+      allow read, write: if false;
+    }
+
+    match /contextReceipts/{receiptId} {
+      allow read, write: if false;
+    }
+
+    match /runs/{runId} {
+      allow read, write: if false;
+    }
+
+    match /auditEvents/{eventId} {
+      allow read, write: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

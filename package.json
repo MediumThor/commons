@@ -1,0 +1,17 @@
+{
+  "name": "oracle-commons-workspace",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "setup": "npm --prefix commons/web install",
+    "dev": "node scripts/dev.mjs",
+    "start": "npm --prefix commons start",
+    "build": "npm --prefix commons run build",
+    "check": "npm --prefix commons run check && npm --prefix commons run check:web",
+    "test": "npm --prefix commons test"
+  },
+  "license": "UNLICENSED"
+}

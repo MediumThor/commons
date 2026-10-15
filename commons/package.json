@@ -1,0 +1,22 @@
+{
+  "name": "oracle-commons",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "demo": "node scripts/demonstrate.mjs",
+    "demo:serve": "node scripts/demonstrate.mjs --serve",
+    "dev": "node --watch server.mjs",
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check server.mjs && node --check public/app.js && node --check public/village.js && node src/check-syntax.mjs",
+    "check:web": "npm --prefix web run typecheck",
+    "build": "npm --prefix web run build",
+    "web": "npm --prefix web run dev",
+    "demo:browser": "node test/browser/demonstration.smoke.mjs"
+  },
+  "license": "UNLICENSED"
+}

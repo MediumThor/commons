@@ -1,0 +1,2658 @@
+{
+  "source": "https://github.com/elder-plinius/V3R1T4S",
+  "revision": "9b1d444eb864a1475e092047d49612a7410a7c5a",
+  "retiredFileCount": 529,
+  "retiredPaths": [
+    {
+      "path": "v3r1t4s/.gitignore",
+      "sha256": "5496f73585cba99bfbacbd62568de89d4382419c8ee752d22d276a383bc8d810",
+      "bytes": 2092
+    },
+    {
+      "path": "v3r1t4s/AGENTS.md",
+      "sha256": "4f9f6a74c1f448a647d380ee59aa494a53a8bf3823246b6303ba9bfa92996cb9",
+      "bytes": 8562
+    },
+    {
+      "path": "v3r1t4s/CITATION.cff",
+      "sha256": "c7f952d015ea4eea25f78093c164823d118e8187b499ebe46c216f87e15df1cf",
+      "bytes": 1626
+    },
+    {
+      "path": "v3r1t4s/CLAUDE.md",
+      "sha256": "62e693414e7b4b5bef6784698efa2171e35387da1e30eb04dee5655a7bb2dced",
+      "bytes": 116
+    },
+    {
+      "path": "v3r1t4s/DONT_SPOIL_THE_HUNT.md",
+      "sha256": "22e5870f3d71ae96e52f1907194976dc73b2476d137da789bebd50f8337aebf0",
+      "bytes": 1916
+    },
+    {
+      "path": "v3r1t4s/GEMINI.md",
+      "sha256": "62e693414e7b4b5bef6784698efa2171e35387da1e30eb04dee5655a7bb2dced",
+      "bytes": 116
+    },
+    {
+      "path": "v3r1t4s/LICENSE",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "bytes": 34523
+    },
+    {
+      "path": "v3r1t4s/LICENSE-DATA",
+      "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
+      "bytes": 17023
+    },
+    {
+      "path": "v3r1t4s/LICENSING.md",
+      "sha256": "c690ca805322add2730094826b7808801d3792b4ccf562b611e27c5eb534e674",
+      "bytes": 9818
+    },
+    {
+      "path": "v3r1t4s/README.md",
+      "sha256": "98a0359bac0b4a4dfb267eb00508df757c0eca5e24c95df928448e83e85a8895",
+      "bytes": 13158
+    },
+    {
+      "path": "v3r1t4s/READ_BEFORE_CITING.md",
+      "sha256": "0097a5296950af0c3835b3cb14ed4b15a619da26fa0fdca14b603eb93d9474a8",
+      "bytes": 6712
+    },
+    {
+      "path": "v3r1t4s/SHA256SUMS",
+      "sha256": "819442ec16cdcce0b770d1dc3fdc4c5c6757236573ad6537566b8f6982ce70bb",
+      "bytes": 68685
+    },
+    {
+      "path": "v3r1t4s/TROPHY_CASE.md",
+      "sha256": "b4f3ad52f6587e5aefdc3b555db200d99543e6b500c805012226f2042cdcc412",
+      "bytes": 30486
+    },
+    {
+      "path": "v3r1t4s/bank/README.md",
+      "sha256": "c49feab6d93618390529a8a76078f7aba004cc122ee745e28587a70c54e2a092",
+      "bytes": 3993
+    },
+    {
+      "path": "v3r1t4s/bank/build_known_unknowns.py",
+      "sha256": "86223805529696d2fda011bdeb876d59da35f2d0652d5333eef2b5300879d33e",
+      "bytes": 7819
+    },
+    {
+      "path": "v3r1t4s/bank/categories.json",
+      "sha256": "dab197c8be5f6c6f6b03e1fbceff055054d25420a40ab579da810cdd20c158f8",
+      "bytes": 2510
+    },
+    {
+      "path": "v3r1t4s/bank/proposed/README.md",
+      "sha256": "a86c256d86a6a42ab09a60d51bf182e4a5c0314a24abd6c4e3f010180c4420cd",
+      "bytes": 189
+    },
+    {
+      "path": "v3r1t4s/bank/targets.json",
+      "sha256": "255365ca539b2b6a33965288919af64ecc230b4651578c18d5f65137791596de",
+      "bytes": 768768
+    },
+    {
+      "path": "v3r1t4s/kit/CHARTER.md",
+      "sha256": "cdfd25a1e2c21a8c4efb209da7c932bf5dbb25e55049023ab45f43e55eb77be0",
+      "bytes": 7840
+    },
+    {
+      "path": "v3r1t4s/kit/LESSONS.md",
+      "sha256": "f9e2dddf2a072aa745bdf14ee073824f04953e12957cb565c531e4e14259949e",
+      "bytes": 4230
+    },
+    {
+      "path": "v3r1t4s/kit/POLICY.md",
+      "sha256": "1503a1627d42a9889e16ff553a04dc86743276acfe9fa9695f5b648c0f67c4d4",
+      "bytes": 3315
+    },
+    {
+      "path": "v3r1t4s/kit/RULES.md",
+      "sha256": "63a35dd18f9e470404b500d86d5a7e244b42426244d8707d2427219f610f1a0a",
+      "bytes": 6048
+    },
+    {
+      "path": "v3r1t4s/kit/RUN.md",
+      "sha256": "86f15c55643caa21c8172f13770d40a214b055126b268d2b2c24dbdf1cf7a3e2",
+      "bytes": 18357
+    },
+    {
+      "path": "v3r1t4s/kit/SETUP.md",
+      "sha256": "166e806d00c8de86945266c1eb65825e06db0ca4ff5a21ddc9ad70383869a2af",
+      "bytes": 13154
+    },
+    {
+      "path": "v3r1t4s/kit/SUBMIT.md",
+      "sha256": "26c7a007861e720908222a865592f4c5184d7e3d70cb97432bfec408a7ee5479",
+      "bytes": 8250
+    },
+    {
+      "path": "v3r1t4s/kit/check_run.py",
+      "sha256": "1b9f04d23fed9def9632c8279c301b38029646e59d4bcfabfcb283fdb9c28827",
+      "bytes": 41591
+    },
+    {
+      "path": "v3r1t4s/kit/tests/test_check_run.py",
+      "sha256": "8f13260bd52e39887ce665ca678b7e0e0b7e0df5ab8d5e977f443a9b5b4034b7",
+      "bytes": 17821
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/HOW_WE_FOUND_IT.md",
+      "sha256": "f017ecc7793da49f83a0122e7ee0262ac0a46e68ecd3847a3fd080c1ec2cd5f5",
+      "bytes": 4618
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/INDEX.csv",
+      "sha256": "e7ed745ea3299877231732acb040b97d5e7953c04ef7a76f228856d3b92e2ff7",
+      "bytes": 7579
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/INDEX_delsarte.csv",
+      "sha256": "7fd66728b57e08494488425d9e3a79ddee515f198295a38d3f6d52ef6f16cf15",
+      "bytes": 862
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/README.md",
+      "sha256": "d8cf537c5668c018bed097ae7319298ae9bb0e91a9c98465b9b6bcb41d74c52d",
+      "bytes": 12126
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/RUN_IT_YOURSELF.md",
+      "sha256": "cc5c37688ca4950d996560e4eb0e043bc9defc237bde0f91ccfc96fb87ec25d2",
+      "bytes": 3904
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/certificates/cert_A31_12_10.json",
+      "sha256": "55a37061bdcec133339a3fff911bd11dce4cc3a803228c2c4356d34124134c7a",
+      "bytes": 368
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/certificates/cert_A31_12_11.json",
+      "sha256": "80d19d9c197a2d2bb1ffb59e84dcf6b88e0457fcc7a940ab474f5b858f72a245",
+      "bytes": 388
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/certificates/cert_A32_12_10.json",
+      "sha256": "cd26f38b98336b35249cec72c9352f2b9b11c8c37c8e9dd30af35af18587125d",
+      "bytes": 381
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/certificates/cert_A32_12_15.json",
+      "sha256": "f9a6cfeabfdb72c77091ed63362069d6ae50102d1403c64c4f077bf8e28c8e70",
+      "bytes": 504
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/certificates/cert_A32_12_16.json",
+      "sha256": "d2ee753eb6af47ed837892cc96e9fb3fe2356defabddd772a397cbedb7e241b0",
+      "bytes": 460
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A25_6_11_8718.txt",
+      "sha256": "fb5145c3b40d3ac0a67a539bce0fa075f6a2d98f9c635932bc7309ee78d1d7ae",
+      "bytes": 226668
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A25_6_12_9895.txt",
+      "sha256": "b2631ed9296e9a0622a535edaba582a715520fe06af36de4d51cd1cf18698519",
+      "bytes": 257270
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A26_6_11_12222.txt",
+      "sha256": "0637a3a3ee1fa65d5230bacbf14fb7a88c56a047fc5a24db614ccd795e488961",
+      "bytes": 329994
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A26_6_13_16225.txt",
+      "sha256": "be7b1c9464c67bc9cac8c175214c607291cb427e127534b30994b29eff4f274e",
+      "bytes": 438075
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A26_6_8_3603.txt",
+      "sha256": "bd239ef369bb94ca6af15162cf2790b7848640adf01ffae05a4a099d7ae7b509",
+      "bytes": 97281
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A26_6_9_5986.txt",
+      "sha256": "b09c1c5d9772aae336ca2ba29e4c3e25c6346299aabcd677008d08f0749308cf",
+      "bytes": 161622
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A27_6_9_8325.txt",
+      "sha256": "d6b278e96ded45c784f351c80dff216c65dba8173d63bb4d2e96b1602c33df3e",
+      "bytes": 233100
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A27_8_10_1737.txt",
+      "sha256": "5a9ef07f5d958179ac069f546c43914147ac041f0c10e80a2229ea3d1287a05f",
+      "bytes": 48636
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A27_8_11_2421.txt",
+      "sha256": "79e63d441921eda3444f3a4fe0601672c97c8df1f9f2a974fa5909f762afaf3a",
+      "bytes": 67788
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A28_8_11_3785.txt",
+      "sha256": "c3160db5f409d2700e974d77503ac3806ac535ef052fb94f8558c92829c9fb91",
+      "bytes": 109765
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A28_8_12_4962.txt",
+      "sha256": "02553ea43f9584446414c23dc611e751cbfb6a8f037e0c115d30aae43e6c5341",
+      "bytes": 143898
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A28_8_14_6359.txt",
+      "sha256": "a4a88d0575c275884d3d34a25156a980f418a5ffd56bf0e188ecbe4a758a7d22",
+      "bytes": 184411
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A28_8_9_1406.txt",
+      "sha256": "4912b21d4eed029dc861a85506f7a4bc10189106ae95793eaada8c1654d316cb",
+      "bytes": 40774
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A29_6_10_25974.txt",
+      "sha256": "5551204c40538f6b11e53e60414e417d5ff7d8c8c59b40a8185ddd59a9de9cd3",
+      "bytes": 779220
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A29_6_11_41219.txt",
+      "sha256": "505ba4d63b0faab9bf8a4e470cebb3111f5622a40985d3324a34a0b994ebee25",
+      "bytes": 1236570
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A29_6_12_61823.txt",
+      "sha256": "d467400b0827c8db81a1c9348317ca1d645c049d6cb54fdf5b927964490e4d2f",
+      "bytes": 1854690
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A30_8_8_1166.txt",
+      "sha256": "b4d9fdacd8a4d441b3025389d37026d77627a2ff234d76496a14b94ee11ef742",
+      "bytes": 36146
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A33_8_8_1809.txt",
+      "sha256": "0a8e9c53dc656f46c45a5e2a50149612644132789219501aa3a32592643ee139",
+      "bytes": 61506
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A34_8_7_602.txt",
+      "sha256": "1a1d0958047e78b8d29752ccb0210518b170663b6862f84d57669c7b0c02d81e",
+      "bytes": 21070
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A34_8_8_1965.txt",
+      "sha256": "125083e27d7b04aee88f0c271af7a8946cba376bb87948705f89a2edc6f95eb4",
+      "bytes": 68775
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A35_6_6_2217.txt",
+      "sha256": "3bc77f117eb9ead8b3d35b6e9a610b8fd2cc183e14d71c2f42a7abe244371459",
+      "bytes": 79812
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A45_8_7_1907.txt",
+      "sha256": "3572d00c548890628259491cbcd330950c5ad79d2797b3b14a1bbe224750fd6e",
+      "bytes": 87722
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A51_6_5_1785.txt",
+      "sha256": "9871c29974fe58c7d181433671fa8d0cda3e3fc95b551549ddb7170167c67123",
+      "bytes": 92820
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A51_6_6_11184.txt",
+      "sha256": "2e6f09bcacc16fa3f0a3bddb450567e52cd405afbb48dadb91f605c2a0701955",
+      "bytes": 581568
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A52_8_7_3799.txt",
+      "sha256": "d2b02baf300e96e2332afeaeab049f5d3231e891bd2de7a3598aa1eb67d2e12e",
+      "bytes": 201347
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A53_8_7_3987.txt",
+      "sha256": "23f6622b2679419869372031dbeafba85d80c256dfb28434aed8ba01b4df6417",
+      "bytes": 215298
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A54_8_7_4193.txt",
+      "sha256": "a5109255714dd876f6fc80f2b7323b5d63570e25a4e104e260b75309ea321118",
+      "bytes": 230615
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A55_8_7_4426.txt",
+      "sha256": "90be7c1e30354c0f3460b78f295518af0db360b61b02732439c6f63716b26049",
+      "bytes": 247856
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A56_8_7_4685.txt",
+      "sha256": "8c1381b23af4e23adba3332069530f1a929dfd59d454c9f8d5ddc8de087e2fb5",
+      "bytes": 267045
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/codes/A58_6_5_2684.txt",
+      "sha256": "9bf9102dbf2921f83d5e0d8c64c0d6d300239e8d3fe7f9c5cc82f48221596d4e",
+      "bytes": 158356
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/README.md",
+      "sha256": "f29a7384e4da9031a296eb24b00da9a325098c3c7307d8296112af3cff58085b",
+      "bytes": 14259
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/SEEDS.sha256",
+      "sha256": "de55465b5b2e89d52b6592841b745e8014145f53f6a6675f45eb8de24dcc2d6b",
+      "bytes": 2337
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/SMOKE.md",
+      "sha256": "e3f8f8e0647a0a3835dedd34362acbe85cc9485cb093114b17a1c4833aaee214",
+      "bytes": 5483
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/convert_seed.py",
+      "sha256": "a4bbf3772d7d4b9dbe2bbcc707e389b3040072b01e0003663eaaac070b92d6a8",
+      "bytes": 2312
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/delsarte/cwlp.py",
+      "sha256": "bb1842ccc30e95b7d7b5f94fe004a972d661e19d880b24440127a8d1ac2ee2d3",
+      "bytes": 6187
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/delsarte/make_certs.py",
+      "sha256": "ee36cf0634bdf6f0c0502a9212f3d702ba589fc26c8bbb4c14754a8d3155ef81",
+      "bytes": 4880
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/fetch_seeds.sh",
+      "sha256": "41dfdfea8466e90d8e845457951a01de99fb36ede79194fe8994d17a2f46dad7",
+      "bytes": 801
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/gs_run.py",
+      "sha256": "5adf8bbf48af1406f0012d034f802e6abc38d7c77df74d772e1f307bbe1b506b",
+      "bytes": 3006
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/gslib.py",
+      "sha256": "1dc07d94b332fc8b374bfd9318bcc0278c872d470c0e10bd2d52591afc87d5b3",
+      "bytes": 7833
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/lb_lns.py",
+      "sha256": "8dc27b2e5342002eb101fc611a85cb76dd3e946dd9d96372b5ca1031a74a4a12",
+      "bytes": 9537
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/lb_lns_deep.py",
+      "sha256": "ae2c6441449434009c5f3916d88482f40e83efaf318fd930b3135fbdcd2f2cd2",
+      "bytes": 15441
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/lb_lns_fast.py",
+      "sha256": "9436e21be9c93365f373c756b1fdc1c957bb4952f545ff9cca0902d3bc96aa80",
+      "bytes": 9466
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/lb_lns_fast2.py",
+      "sha256": "1285898a93e07e213f4d3431eee2b34f8d8eabeb0ee9d8d79d54933d327b00e5",
+      "bytes": 12393
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/lb_lns_fast3.py",
+      "sha256": "57c253468553bc721766e42d048bae8acc55536174496671b838afe22b04a69b",
+      "bytes": 12486
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/lb_lns_gen.py",
+      "sha256": "981f4158770d4cb8b739ab03349393e8db04f358b8b81ebc4bf1064612282b7e",
+      "bytes": 14923
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/lb_lns_inc.py",
+      "sha256": "93e3d3fd1ef0ccfde7d4953607134c6dbb139db4d1ac59f4b1f1b409814e7c89",
+      "bytes": 12965
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/lb_lns_inc2.py",
+      "sha256": "cbd61192ed2cabf0cd5a960586e5d42ab151f51e88a11fa44dfc0cbc19ecfc59",
+      "bytes": 14183
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/lns6.py",
+      "sha256": "041d05f7bc1d9b1e7a70bd912adca9caaebb8a57f0c92a1c18322be6ef084026",
+      "bytes": 7645
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/requirements.txt",
+      "sha256": "bd04fa1e6cdebba0155ddc73b84aec1f04243bde585bd559ecf23444cc6a367e",
+      "bytes": 398
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/sidon.py",
+      "sha256": "056048db2319a5e17a30a3f378277d360a836534110884158de14082feb9e279",
+      "bytes": 4198
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/write_code.py",
+      "sha256": "5f4c390856d9ca1b0b856d5eb264a44e93af9ab75a51068d3480233e82a7c32d",
+      "bytes": 402
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/how-we-built-it/xwalk.py",
+      "sha256": "c61c49a5a0e3e9ba0b8b2ed089ae8f19a6695f46381fb6e27122cdb9ee37144b",
+      "bytes": 9556
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/the-record-we-beat/brouwer_Andw_2026-10-08T23-29-37Z.http-headers.txt",
+      "sha256": "a439872a827e1bd72bf6c98518763020b4536a99fa1e981b62565679d70bf392",
+      "bytes": 251
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/the-record-we-beat/brouwer_Andw_2026-10-08T23-29-37Z.sha256",
+      "sha256": "908f0997ad9182294064dd64c38e0e323b496af5ab6b05a1e4a579749f78f64b",
+      "bytes": 197
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/the-record-we-beat/brouwer_Andw_2026-10-10T19-23-48Z.http-headers.txt",
+      "sha256": "244850a2faad0cad5da802b90985e16a9a7203603eec278b24b589ee1ff7f854",
+      "bytes": 251
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/the-record-we-beat/brouwer_Andw_2026-10-10T19-23-48Z.sha256",
+      "sha256": "3784d4e198655b2f3dabdb84941071b80fce5cbf037be8f762190efa1ef50cb2",
+      "bytes": 231
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/the-record-we-beat/claims.csv",
+      "sha256": "2d8a7401919fafb8278de9890dead02f66512daf3a25ccb0fa5cfae3ae19ae81",
+      "bytes": 549
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/the-record-we-beat/parse_brouwer_table.py",
+      "sha256": "095126e82fcc6e597a4a989048a04eb490e6e374cdca46f08264940e5c4fe841",
+      "bytes": 2983
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/the-record-we-beat/parsed_cells_2026-10-08T23-29-37Z.tsv",
+      "sha256": "c7aaf7555fa2807e55f64a4b5e5234019c190acc488e418da53f2b2db472efe8",
+      "bytes": 2191
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/the-record-we-beat/parsed_cells_2026-10-10T19-23-48Z.tsv",
+      "sha256": "bdae7d626195a1210926f16764d339d0a37f858d2babb21891523511834a2698",
+      "bytes": 2397
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/verify-it-yourself/RECEIPTS.md",
+      "sha256": "a7304ccbe4e108ff2c52665f14ce4896b0dc9e18054ad2b4f2bdd41d796a23cb",
+      "bytes": 22217
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/verify-it-yourself/cwcheck.py",
+      "sha256": "08cf6ea31c978a08d57893444ad666dd1ead9c0fb545263231bbf2d07f4e8c9a",
+      "bytes": 4618
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/verify-it-yourself/delsarte_check.py",
+      "sha256": "7360df052ba9547ec9d92366659fbc2b82140159cc80e14601b35b46cc963158",
+      "bytes": 4485
+    },
+    {
+      "path": "v3r1t4s/known-knowns/bigger-codes/verify-it-yourself/run_checks.sh",
+      "sha256": "1bca14dc96df04cae8b9d462ca0da86b0dbcb15dd5352262e25f94bf5f553538",
+      "bytes": 1653
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/HOW_WE_FOUND_IT.md",
+      "sha256": "a5c77a7e0454348ad382ebce6af53850e7583f3a31650ece549c9b8cf24c0ed6",
+      "bytes": 3738
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/INDEX.csv",
+      "sha256": "fcc66d41ddd8a94653c2c943493afe53285d59c8f0912363107b79230323c401",
+      "bytes": 3430
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/README.md",
+      "sha256": "e765a759019f49412122b6a9b85d6785060bfd99b017da0580fcd3d0220eee39",
+      "bytes": 17419
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/RUN_IT_YOURSELF.md",
+      "sha256": "eda9983de9674827bda4e47cd1e22ecb0c14ede9563fa0b94747c4c87926e2d5",
+      "bytes": 8243
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/graphs/G_13_4_n6630.edges",
+      "sha256": "7c44e128901d6dd6b64e0574b90ff8aa21872462338fd267bab466cb268e10a4",
+      "bytes": 416522
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/graphs/G_13_6_n535495.edges.gz",
+      "sha256": "b18b0d91498bdf24bc6ac709db6ee893d70c7dbd0202a27d54eb227810bb455c",
+      "bytes": 14186663
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/graphs/G_14_4_n8424.edges.txt",
+      "sha256": "71ef820b5804f77c626209fbcda3a8bd50c546a5fb70175cbe36a9f98f22f281",
+      "bytes": 574140
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/graphs/G_15_3_n1620.edges.txt",
+      "sha256": "da9faa8c8a875ac789506ca3f91a45db37b3f1f3952b729c88199557caa792ce",
+      "bytes": 104850
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/graphs/G_15_4_n13365.edges",
+      "sha256": "2d36814028c63e32e527fc0f88ac08cbc70be134f8786de4867c58d748dae52f",
+      "bytes": 1034040
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/graphs/G_15_6_n1424896.edges.gz",
+      "sha256": "d10b3b7c968ecf25730a2e822ff2e5401178614096120eec2beb0a9acee6cd70",
+      "bytes": 46145714
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/graphs/G_9_4_n1700.edges",
+      "sha256": "d271a1e84aa9539ba47f8d036cd15e4a5a9ccc5a4752d0dacc94a9d35f17eebd",
+      "bytes": 66510
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/G_13_4_n6630.diff_vs_near_miss.txt",
+      "sha256": "f134c2a51abe13e77e47890b8514fe6fb615db6631405a040ebb58fc8f5911d3",
+      "bytes": 257
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/README.md",
+      "sha256": "171aafc4ef29c4f72aa80327205bfb8a2f02a172d637ee85da11133777b3c554",
+      "bytes": 9318
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/apply_diff.py",
+      "sha256": "8341b91e1b14420155b08577b6a20bd23d35d6382c47cf820321fa252abf534c",
+      "bytes": 1306
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/near_miss_N6630_cost2.edges",
+      "sha256": "4770231e37fa08015871f059c5510908d2eec96d56a860dff113d607bfcd3b5b",
+      "bytes": 416614
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/search/chain.py",
+      "sha256": "a62c57b16cbff72ca7c0f2596f9bb0de14ad83188435517a7056ec056dc2aa9b",
+      "bytes": 6560
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/search/chain_step.py",
+      "sha256": "930b55d01bde4840bc5c0c48d91f26a541e093cbdf3f8e172c55caea12699a90",
+      "bytes": 2150
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/search/ddlib.py",
+      "sha256": "86607dfb56c4e7ea5817579964b30edf9fd725bc77c91cb4e6af1676ee463de6",
+      "bytes": 6893
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/search/decode_sage.py",
+      "sha256": "7a0d785ef57dad45ef78ddcf803b02fb3c6dbf33c94d5c6c08329b2a74964284",
+      "bytes": 1699
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/search/expected_logs/chain_c134.log",
+      "sha256": "efda771f727d03b9e0aa2aaa412201f1b09d53b8670602829b86a88bf07f46cf",
+      "bytes": 8223
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/search/expected_logs/chain_p134.log",
+      "sha256": "e5d9544be8722985cf4efc507414be6e26a16e92b80493a737bb88bd1499e65b",
+      "bytes": 473
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/search/insert.py",
+      "sha256": "e3e75c52c5022821fc019035496c3a45abe840de2eb0fdba1fffdb7750f065db",
+      "bytes": 4151
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/search/insert_step.py",
+      "sha256": "7c41dfad2d16a60c725cd6871d4fc64e591c200470aa7b120e80aff8b46a0691",
+      "bytes": 3432
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/search/prune.py",
+      "sha256": "eb7904a11515f5aaefcd6a5391b21fbe695defa2a4bd90e5268c6be8781a9b53",
+      "bytes": 1406
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/search/requirements.txt",
+      "sha256": "e2fbc50dbe2547d85cbe50299f3987f158676c72369809de77b237355e0cf7c3",
+      "bytes": 167
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/search/sa2.py",
+      "sha256": "b13db6195bcad792030e2de182516b705d4344f1a7d2911c05605a22171f02bb",
+      "bytes": 13408
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/search/sa2_resume.py",
+      "sha256": "2599a797b45b67e69221f5607c647d5cf189c0b74b66ba6697b8f6efb5512b9b",
+      "bytes": 3045
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/search/specs/chain_c134.json",
+      "sha256": "8d6fafdfe648b7e7a2458fc0b824f556fb048a8d5fa305e8c5e61c7bc2fd2d55",
+      "bytes": 157
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/search/specs/chain_p134.json",
+      "sha256": "f6b533ef09e92292ed471984b799eef62a5345e24c8300e821dd9a59b18ec0d9",
+      "bytes": 138
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_4/valid_c134_13_4_N6629_pruned.edges.gz",
+      "sha256": "2a9aef79c19cff58ae991703baed3939add1a1ae8cccd712af0b2149b2a74252",
+      "bytes": 139834
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/G_13_6_n535495.extra_vs_compound.txt",
+      "sha256": "84becec986e895c2003a6fe815b41497a56702c31d5a7eb1e2722d33d8c15799",
+      "bytes": 624412
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/SL_relaxed_t4055.json",
+      "sha256": "19a4261f63369604861794b3ed1555432bc575089ab79426286bf1c0da976b89",
+      "bytes": 27872
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/SP_relaxed_t4055.json",
+      "sha256": "4f0dac60650eb287d6a50b02135a5fb424dda1b3e1601982b9310cd92fd02096",
+      "bytes": 27810
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/compound.py",
+      "sha256": "7c8a3db4f78c17076a9d5d6cc1c1652dc9cc16b928cb9e8e22e0aec84e2a9aa8",
+      "bytes": 7894
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/rebuild13.py",
+      "sha256": "6802fd1cec5171c5aad02b16e787ce9cce2e75e0148eb01c00edcb06724374dc",
+      "bytes": 3087
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/search/README.md",
+      "sha256": "38f424c057cd1288163e608c4dd74db9d7c910e383974ca39b5bdfa39dbdad1d",
+      "bytes": 8003
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/search/cutsets.py",
+      "sha256": "109bc5f1370b5ec38da298ef0c38a1815cec185c93b8af274edbd24452fde76e",
+      "bytes": 11520
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/search/exact_sc.py",
+      "sha256": "2f062b0cba73255e37d2932e03fb3f2e0b6baf9523b25e6327e79538d169c81b",
+      "bytes": 6535
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/search/inputs/H9_lines_r1.json",
+      "sha256": "103dc1625d78b4dcac283bda0004e919043576784bea423612eabab5395aa60b",
+      "bytes": 27354
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/search/inputs/H9_lines_x1.json",
+      "sha256": "acff69253ca4f7717d199727d3ba2ccc65fcc836603e8dcfec3c511b8a3e9e21",
+      "bytes": 27294
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/search/inputs/H9_points_r2.json",
+      "sha256": "7267903709e0af43860a84faebfad87269d5f9e56a6e3926f9587f9e789d3598",
+      "bytes": 27247
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/search/inputs/H9_points_x1.json",
+      "sha256": "fe576c1cea03284ad4d1b0d78b13cf0f6a92370e41449ba4dc90c0b32de4be5f",
+      "bytes": 27186
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/search/inputs/far_pairs_t4055.txt",
+      "sha256": "659e8c8a76ab0a59c68fcd820e2c3ac63035ce91c8cccd3e0b36723a00d99299",
+      "bytes": 44506
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/search/newpairs.py",
+      "sha256": "d59b2f9d499fa5f72a13917a2b780cf837953119ecf6be1275837f565d57f648",
+      "bytes": 4357
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/search/relax_greedy.py",
+      "sha256": "479252db46be6ffdd667759bbb4e39c5f148fcd7914a4b007ac6cdd427fa2306",
+      "bytes": 3176
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/search/relaxed13.py",
+      "sha256": "871ffbf8898eb233c1351e18890aae020e3f943c5c2c1e51fe9151e0e691e890",
+      "bytes": 5479
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/search/requirements.txt",
+      "sha256": "613edf64cbae0b2ae1c47bd6ed04fd72db2a6ba84159ea9336df82a0dc96c8a8",
+      "bytes": 252
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/search/run_search.sh",
+      "sha256": "27e8f5281c65325af152992ef6557f64e5f0dcf574208bd82364f17928cd1d7c",
+      "bytes": 3594
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/13_6/search/xchk.c",
+      "sha256": "e9ee0198b2bd053206d004194abef065d457f5dc279c207cf4352614ad0b88bd",
+      "bytes": 11471
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/14_4/G_14_4_n8424.params.json",
+      "sha256": "4276a7a12d8fbb8906fef646cc0e1dbd2a8693f6ccfc3b3aa90a3f101155c22b",
+      "bytes": 25480
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/14_4/rebuild_lift.py",
+      "sha256": "1b8b8ef2162a274ed8a627c32f53e218fd69af6c5950e58e65da4e342bd8ce94",
+      "bytes": 1056
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/14_4/search/README.md",
+      "sha256": "8e840630e3ce7f8d20b98e4642660ec4544533cb53184aa68db34aeb6d656ff7",
+      "bytes": 4162
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/14_4/search/controller_from_params.py",
+      "sha256": "23537cd77411c287dc931d6c5f394b369af03c2e59646c0ff4bbf95ea8eed660",
+      "bytes": 1476
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/14_4/search/frame4.py",
+      "sha256": "bddebd001086552516437af104a2889df94e5f3bee5b180ac558351ec58c1f35",
+      "bytes": 13443
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/14_4/search/gf3.py",
+      "sha256": "1522a9ee2767a1725aba841c76e652f6fcadbb1393c436bfa17423939909a472",
+      "bytes": 2480
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/14_4/search/requirements.txt",
+      "sha256": "8df5efe27af49503b76c34ff5a81cd880a017a7579e78b7876c7d679a7045e88",
+      "bytes": 126
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_3/G_15_3_n1620.params.json",
+      "sha256": "ccbecf951e9e4cc8d3847317a975e71dfa8dafebb461054a293a9f5d97c12ea2",
+      "bytes": 20528
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_3/check_route_certificate.py",
+      "sha256": "29912a924d13a1ed07acb365af4b5dd15bcf6000d43046bdb5732b1934c54134",
+      "bytes": 5162
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_3/controller_own_k5_n60.adj",
+      "sha256": "83db2c54d0d764f9bc20f7e1498edda882441fbeafa0ab57c9ee84913e094de2",
+      "bytes": 850
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_3/rebuild_route_chart.py",
+      "sha256": "3a777280876bac42153221ec6bf3a2bda3b99a83eb21704f1400a183ae454811",
+      "bytes": 2196
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_3/search/README.md",
+      "sha256": "65ae91f62bf594b4ffeeb26318720bbe974f4121a7d92820cb46b5de19eb654a",
+      "bytes": 4474
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_3/search/k5sat.py",
+      "sha256": "92f9c71a53e5615704f58c006707694cc171c8f002a749703823e683f3b2fd05",
+      "bytes": 6022
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_3/search/make_params.py",
+      "sha256": "baf4ba5acdbac4343773f7d7f668caf0844d035f204b96c912377ebaa69a798f",
+      "bytes": 3218
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_3/search/rcl3.py",
+      "sha256": "fd2e1dd8aa2a46442301c59ef723c2a2319af74bbb1359399640b3a160cad54c",
+      "bytes": 7621
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_3/search/requirements.txt",
+      "sha256": "89bf7a998fa2c99a8e0721aac520311dd4e2075cff864762d9813aa360e5d121",
+      "bytes": 150
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_3/search/typed_chart.py",
+      "sha256": "c9ea32f2f922fc693280bc7fd96912b3a4b2d48d66300c2683cd73204b126767",
+      "bytes": 7240
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_3/search/vlift_w3.py",
+      "sha256": "a3735f08df0828e6eb0e237b05f4052d5cf73cbef2841fc8e65e31b0019b9d4e",
+      "bytes": 1948
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_3/search/vsa5.py",
+      "sha256": "dbfc93378e5a4c67e6709be7075ffde6c34a126a4cdc85ea08dc9894a646d29d",
+      "bytes": 7348
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_3/search/w3sa.py",
+      "sha256": "c03b1c6fc9ed8710e83a357291ce494de9e0e8f24828de75d740113c2fa03af4",
+      "bytes": 1231
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_4/gen_G_15_4_direct.py",
+      "sha256": "76353dae91cebb5ce9fea38fc6e005ec2b5e9c46eb43e9c9c759b7f48752c047",
+      "bytes": 3240
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_4/search/README.md",
+      "sha256": "59192c9ffe53c9abee685520c0f9024b20f3d7f9dcffd1be4f2f6e5f51566d16",
+      "bytes": 4064
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_4/search/bip_proxy_search.py",
+      "sha256": "6bc542dbebdefa7c7a07640ce54cef252961a7211e8e7db962596c7cb696ab47",
+      "bytes": 3547
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_4/search/exh_bip.py",
+      "sha256": "33c6f440b2cf5fbef47bb87012c6dfae56e62bea55b4dea957df2342bae09074",
+      "bytes": 3933
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_4/search/groups.py",
+      "sha256": "f7914cae12ea2cc34df7ef1145bccd7cdf2f787432929f28807a9c772d10ef31",
+      "bytes": 4963
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_4/search/rankproxy.py",
+      "sha256": "588067d61b60e86ef34dde6e6962a74f3283c8d11c58f1b9466fe416fe051aab",
+      "bytes": 3491
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_4/search/rcl.py",
+      "sha256": "2cf4204a2762e4aba7cd8de13fadcac6f05aeb7db712633bd97c921f6ccf60c1",
+      "bytes": 8266
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_4/search/rcl2.py",
+      "sha256": "7925752877208126f594c26ab880432a85c4ef8c99191bade13eaff9c5317fd6",
+      "bytes": 8306
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_4/search/rcl_bip.py",
+      "sha256": "0ba4d90ce5f3fc884e78c8a69f04bf202bed4926f580dc8565ce84ebbfea633d",
+      "bytes": 3058
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_4/search/requirements.txt",
+      "sha256": "c8209610fe7cd7586aaba231aa6299e9e8c4432899b9be85bb9ab8c3b6dc0c9c",
+      "bytes": 114
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_4/state_Z11x2Z30.json",
+      "sha256": "4d70ce9be3bb26bfbb4dc76906d425008f5b3b6893ec9c059be12637c4a8c4a0",
+      "bytes": 381
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_6/G_15_6_n1424896.base.meta.json",
+      "sha256": "6ef49097e12fcc86fb0f4ad36ddef56b6dc681cd872e9e664221bf80c40157d1",
+      "bytes": 557
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_6/G_15_6_n1424896.shortcuts.npy",
+      "sha256": "d36aa6497a9aaf367494ab8819b50d47d12e10f6d846cd8548a2b5432718b00a",
+      "bytes": 272
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_6/H11_lines_s1.json",
+      "sha256": "e210de7ec57fd56d693cdb2dd688ea0e0fad5a7c133aa7625174d1d7b3fea44e",
+      "bytes": 56623
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_6/H11_points_s5.json",
+      "sha256": "9f8a11b8bb75781ba9c295eeff3264e2ec1a6c6f836676314d2d7f66c3905d08",
+      "bytes": 57001
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_6/compound.py",
+      "sha256": "7c8a3db4f78c17076a9d5d6cc1c1652dc9cc16b928cb9e8e22e0aec84e2a9aa8",
+      "bytes": 7894
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_6/rebuild.py",
+      "sha256": "28b727b2cf18b99b7904813b2bfe4e5723ea79cf8334951007158320ec8a8cf3",
+      "bytes": 2970
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_6/search/README.md",
+      "sha256": "5b26e31f35389c12d42207025351fc028aaf71c29f585608c08e1ac59ca6e1b7",
+      "bytes": 6214
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_6/search/assign_generic.py",
+      "sha256": "4bf2c78895f6a665177544f8d5304e8e77dfc46f16414aae3ed90b4363f7ed48",
+      "bytes": 8469
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_6/search/cutsets.py",
+      "sha256": "109bc5f1370b5ec38da298ef0c38a1815cec185c93b8af274edbd24452fde76e",
+      "bytes": 11520
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_6/search/requirements.txt",
+      "sha256": "8ed6accfd79a4ff782171e7b398962269eaefd5dd432e313cf9f89cd9411cdc8",
+      "bytes": 153
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_6/search/run_search.sh",
+      "sha256": "0cabd47aa15049bfdede2e8555dc204eafd7be09ffa0b58d3afbcaeca5531401",
+      "bytes": 2224
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_6/search/toppairs.py",
+      "sha256": "bc002a0b2c364ca68f379c95b8b813438c838cd27f62277a9a02d8e04c406ecb",
+      "bytes": 2570
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/15_6/shortcuts_9.txt",
+      "sha256": "5eae1c0805c11a23db97644d0cd9bbff503af8f3e4b9ed6498d7670b29000108",
+      "bytes": 221
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/9_4/W7_lines.txt",
+      "sha256": "f3a6efe49c3c26b2f6b72f2f604476a61f599f5c0a1505517bb8dc27f23ee487",
+      "bytes": 13485
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/9_4/W7_points.txt",
+      "sha256": "8dab91849f30b4e74bd2b717d755054eb5cfd535e352f2f872c9cc196673114d",
+      "bytes": 4953
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/9_4/rebuild_1700.py",
+      "sha256": "3f524e8c70819349ae9feaed825aa88150b8b7775e397ddb52ef55863301b14b",
+      "bytes": 4130
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/9_4/search/README.md",
+      "sha256": "c9a2b10756446f6c180edc517a2a149afda2b576406a16e72923ed7eb8bcc532",
+      "bytes": 4711
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/9_4/search/export_txt.py",
+      "sha256": "b9468781d9726dd09e1f64346f87ae2535372c6d2d3d221ee584476a11c0d170",
+      "bytes": 3214
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/9_4/search/gq.py",
+      "sha256": "1a042780a5eb09d2896dc104607cc27a98194876f7f480ad8764aab6d99e75fa",
+      "bytes": 4403
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/9_4/search/gq4.py",
+      "sha256": "c6e505ddcee99cd33ab63eb8b99473aa9963e52dae5a8dd0bb19926acc1ed993",
+      "bytes": 4957
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/9_4/search/lam.py",
+      "sha256": "a3998877af2fd9ca27ce58524b345c233e0215f885ac073f58ba820e130ff0a0",
+      "bytes": 1948
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/9_4/search/requirements.txt",
+      "sha256": "2eb023818aded5002b06b896adccdb0fc162de568c013b42ce0e247c01189c4e",
+      "bytes": 150
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/9_4/search/symsearch.py",
+      "sha256": "38cb0f04caa2c5b85d0a4fd3153f408ca518e1a5e5de277cd92346b8ca7ebeea",
+      "bytes": 10982
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/9_4/search/vsearch.py",
+      "sha256": "f60a3eb47bf2dc42c009ecc16901cda1774b5c4b8468bb2becc8b476345faa48",
+      "bytes": 4721
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/9_4/spread_q7.txt",
+      "sha256": "8d9d9f727d6975868f6b3773c1cab5f1bbabc35da42a44d29cfba8b89addda13",
+      "bytes": 244
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/9_4/voltage_q7_Z2.txt",
+      "sha256": "80985e8d25ed81f7b27216b7dba3cf0fbed32c7d3651eb91a5aaa381ad024172",
+      "bytes": 30331
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/README.md",
+      "sha256": "d31424089c9ddd2479ea5d748708d32de4686248ac7c4aaab5ff69c180d8a8fa",
+      "bytes": 4571
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/how-we-built-it/SMOKE.md",
+      "sha256": "b8e765df3b609a2b0e109e54fbd710f1bde09a0b4ee75f1128238b7cdd7a34e0",
+      "bytes": 4319
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/the-record-we-beat/comellas_desc_g3_2026-10-08T23-29-30Z.http-headers.txt",
+      "sha256": "9740dbe2b338e41537d595919183233bc0f109bad84e4b7d1e47ffffcd3108f3",
+      "bytes": 238
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/the-record-we-beat/comellas_desc_g4_2026-10-08T23-29-31Z.http-headers.txt",
+      "sha256": "8eaea989cc9474ccda7c87a4e23964d1047d72b89745f6879ceada55f41eb472",
+      "bytes": 238
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/the-record-we-beat/comellas_desc_g6_2026-10-08T23-29-32Z.http-headers.txt",
+      "sha256": "4a822bfe9feab2c18f8eb88e9e4072dd1588777e5e9817b5b6fa81509a5124c2",
+      "bytes": 238
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/the-record-we-beat/comellas_table_2026-10-08T23-29-28Z.http-headers.txt",
+      "sha256": "d6ba4c21882d1d67b819a92bb26f919955e976bc86fee1b4d1f324e359769d0d",
+      "bytes": 238
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/the-record-we-beat/comellas_table_2026-10-08T23-29-28Z.sha256",
+      "sha256": "b5827c868fc5d8024d0fe9a6aa0bdcfbb1435e60f131206ab1c0a42545c185e5",
+      "bytes": 182
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/the-record-we-beat/comellas_table_2026-10-10T19-22-57Z.http-headers.txt",
+      "sha256": "4612cf5f5f3cd2edfb2f45020a552c9ae23088da5cf968ea4e882eb8294fece4",
+      "bytes": 238
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/the-record-we-beat/comellas_table_2026-10-10T19-22-57Z.sha256",
+      "sha256": "88f74264bd6c5f81f1f68bef13a5d981c5b497168846be10c1058479ce1bd0c4",
+      "bytes": 247
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/the-record-we-beat/live_cells_2026-10-08T23-29-28Z.json",
+      "sha256": "2a6f1d5724845608ffb29861373776218c61c2e4b40e4a9e364f6f6a335b3a34",
+      "bytes": 3669
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/the-record-we-beat/live_cells_2026-10-10T19-22-57Z.json",
+      "sha256": "86fb9166d203cd5ed7561005e54a843babc161963f5555c2e9ce572227b03099",
+      "bytes": 4541
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/the-record-we-beat/parse_comellas_table.py",
+      "sha256": "0b34722fc210c963865a857688a0f79af65a11b6a9665b3d3401c0ada7cbc1ea",
+      "bytes": 2176
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/verify-it-yourself/RECEIPTS.md",
+      "sha256": "f3f035973324da415abdda01609f97ac27859eaef1f60b1e214184e457de5d08",
+      "bytes": 9495
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/verify-it-yourself/ddcheck.c",
+      "sha256": "bb01dacafd49c6a037610adf9d93e300c014dded298b85da5f3caf1d25527477",
+      "bytes": 7731
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/verify-it-yourself/ddcheck.py",
+      "sha256": "ca62ae8e08617bb63543ce878a3804b9f6459c0f34e570f53aa0a720e4b56e28",
+      "bytes": 3895
+    },
+    {
+      "path": "v3r1t4s/known-knowns/biggest-graphs/verify-it-yourself/run_checks.sh",
+      "sha256": "ca1dd7a617c9e04836e0cacda6b4329a26f9365d16dc49f2a6c6a535ba14756d",
+      "bytes": 2914
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/HOW_WE_FOUND_IT.md",
+      "sha256": "de55bfd4e735624ec5c8aa6321d95889c012528be44712ffb7da12273a092950",
+      "bytes": 6162
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/INDEX.csv",
+      "sha256": "8e5b2a6c3c2b6a18dd3c2489f742b73890b9c81bb9d051f0628bab25101e83b7",
+      "bytes": 1949
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/README.md",
+      "sha256": "740321f0f9287e13ee0f1dd229c47a974b49393560a453df125ad850b359ba07",
+      "bytes": 10929
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/RUN_IT_YOURSELF.md",
+      "sha256": "667bd817310f6ae527d17ba8386d73424e8a27b9c9abf12d610ceb4998cc2dd1",
+      "bytes": 4428
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/how-we-built-it/README.md",
+      "sha256": "ceb577e4916b679524595d80427c678020d2c24e74615ae0b3dfdf8cffb48356",
+      "bytes": 12134
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/how-we-built-it/SMOKE.md",
+      "sha256": "328902e55fbcb300f2ab73a1d3d5bb573ae6cfb81f5ec1e3c9e1fd30d3095ac3",
+      "bytes": 6926
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/how-we-built-it/absorb_exact.py",
+      "sha256": "6355f37d45eb5d24044f61a08b1a5ec39d5a2841008bbc51cedf4e0d88ce1752",
+      "bytes": 6535
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/how-we-built-it/bars_2026-10-08.csv",
+      "sha256": "9411b254fc1a150cb8affbbf59048be0f594c7a85fc4e17fe1584bd6282a06a8",
+      "bytes": 1045
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/how-we-built-it/fetch_lita.sh",
+      "sha256": "fc97dfbdb0605a6b7c006c5404a36795d339e568fb0c8ce5e15ad1903985747b",
+      "bytes": 1347
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/how-we-built-it/make_scheme.py",
+      "sha256": "6f9f792af6376fa2495beb638fcbbafad6f53fce47d41762bfe778db87803d7d",
+      "bytes": 2373
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/how-we-built-it/maxkill.py",
+      "sha256": "a7146815b9de3661af82edd077d9ea60a7e50f3f06b00146f799d1480207b7fb",
+      "bytes": 4535
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/how-we-built-it/pairtools.py",
+      "sha256": "9a14cf4de2387e19f561f11231cbaa2528f5e56d3f0ed5085a23f227b0668118",
+      "bytes": 3333
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/how-we-built-it/peel.py",
+      "sha256": "6661e49d755a2d187bb3573086e641ee77d4fb49e458510be7157c0e15af55a4",
+      "bytes": 14030
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/how-we-built-it/regenerate_all.sh",
+      "sha256": "11bc99e991eefdddc3272cee2dc7bdaa5127cf818daa23bb3bc02ae751a97300",
+      "bytes": 2041
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/how-we-built-it/requirements.txt",
+      "sha256": "d7b3a3ee600d2aeec7f8a4e44e997091e62fd1b34a9e23f7aaaf74062d45d9e0",
+      "bytes": 211
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/how-we-built-it/sweep.py",
+      "sha256": "bb138b526de20f9d665ab00186b2993710138f2c659f4cc4340f1e402851cf24",
+      "bytes": 7127
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/schemes/13x14x14_r1558_Q.json",
+      "sha256": "15e46337bdca5a92090021dbd11a6fcb9d57f352a396ea6b34e1f32888fe0702",
+      "bytes": 4720943
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/schemes/13x14x15_r1677_Q.json",
+      "sha256": "4230f61d432b627d0624105deb004451e8332ccca32c1834746cff2e11c7d6bc",
+      "bytes": 3274965
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/schemes/14x14x15_r1716_Q.json",
+      "sha256": "83e880a0ecbab4bc6af7c0105365e9ee69aac2c2dc0ac272073249e856f34a56",
+      "bytes": 3506702
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/schemes/14x15x15_r1842_Q.json",
+      "sha256": "bb313b876ef9a14b57e72f4deafdae9085bcdad1d1f43d70067788f7e375c6b5",
+      "bytes": 3908055
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/schemes/14x15x15_r1843_Q.json",
+      "sha256": "c86dba238db8a26bef6a4e8f5e224e8524e5d61cd0b89625fe34b43e27813ac3",
+      "bytes": 3909875
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/schemes/15x16x16_r2180_Q.json",
+      "sha256": "8365355f0f3ae6bc3efd445517fbd473c91477cd1c2b2aeb08c0b3b85182fd1d",
+      "bytes": 7541621
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/schemes/15x16x16_r2196_Q.json",
+      "sha256": "11c2649664a1d8d4386b225bb0ba62f3a5f1c819b575f50ce9830c478fb67113",
+      "bytes": 7646310
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/the-record-we-beat/live_recheck_2026-10-12.json",
+      "sha256": "86354f6351518aa433962ee18226d019e4060701306fbaa91cefbce15807095a",
+      "bytes": 1749
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/the-record-we-beat/parse_sources.py",
+      "sha256": "d10b7cafa5f657953f0c3a41ca25a50ebf977583550aafdfad87014e0dee7284",
+      "bytes": 3346
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/the-record-we-beat/sources_2026-10-10T19-25-52Z.json",
+      "sha256": "0fc2d571f5f4829bd00d4494b80269554ee20b22b6ed097417a6c8673dd1dd0e",
+      "bytes": 5576
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/verify-it-yourself/RECEIPTS.md",
+      "sha256": "3fba6ed53864064d900cfd7dfa55ce29d46323417f644781751c26025aa3ac0a",
+      "bytes": 7734
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/verify-it-yourself/fmmcheck.py",
+      "sha256": "37188fccccea7177f9a9e9c6913bee88ef57fa1993d6732a346f99c3624734d8",
+      "bytes": 5689
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/verify-it-yourself/mutate.py",
+      "sha256": "cd4812ca1d0994893fdaf42f30d281c6987bf6b3a634868fe1b6dee8b2b9aa63",
+      "bytes": 1193
+    },
+    {
+      "path": "v3r1t4s/known-knowns/faster-matrix-multiplication/verify-it-yourself/run_checks.sh",
+      "sha256": "104924acb129fcc3740f78b50818c58acf0d204fc1f7a3a9af0b3b2df3f26b1a",
+      "bytes": 1993
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/HOW_WE_FOUND_IT.md",
+      "sha256": "0aef4069f97816bf29eaa481cc41a96f654ace4a546cfd356679b0f342aff7cd",
+      "bytes": 4196
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/README.md",
+      "sha256": "062d9f0bf59c2adfe9b9aef1cf2db0c07aeacaff58d25ab54b6ffb20af80c6ae",
+      "bytes": 14009
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/RUN_IT_YOURSELF.md",
+      "sha256": "b4ec946153aaa98355220f517360159766c7585d50738b047018dcb948de43fd",
+      "bytes": 7440
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/branch_logs/lbb2_agg_e50.json",
+      "sha256": "0ce7cefde793433cfe7a96ab199673879e37be65fb12b2b3c09b7062e9f9d0cf",
+      "bytes": 403
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/branch_logs/lbb2_e50_S1000000000_tasks.tar.gz",
+      "sha256": "d2615c95b67b80815d69e3669674d3914f38b34832429d105b538b11955b5c16",
+      "bytes": 527689
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/branch_logs/lbb2_planted_final.out",
+      "sha256": "b7e67290407bf41d7d15b6521bb933fcadd85f2f38f92e7a958dc3146d6e6918",
+      "bytes": 7481
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/branch_logs/lbb2_selftest.log",
+      "sha256": "870f0cbaf103084d35fe0b60358eabcb9433dc97b457d1a961bb6ae548f2dd8e",
+      "bytes": 763
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/branch_logs/lcrt5_1e50_LCRT4_tasks.tar.gz",
+      "sha256": "5c1ad2527cda24fbbd399971acd3f914ea0ec3493e7ec9819bfe54ea1cf3d67d",
+      "bytes": 3467766
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/branch_logs/lcrt6_1e50_bigsieve_LCRT6_tasks.tar.gz",
+      "sha256": "296095abaf4941e862610cd6f4917da61d01c5ab017b8e0f8fe09cd998e5d39d",
+      "bytes": 3720293
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/branch_logs/vlrt2_full50_union.tasks.jsonl.gz",
+      "sha256": "c06283240fbc0e0333096bd17acdc5bf83231ae355387c2b0747f5a5ff6a33ee",
+      "bytes": 3100501
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/branch_logs/vlrt2_r50c.log",
+      "sha256": "8dc3b5e0e141462afac11e5cf3178fe2a2388f51605f4867339469142961eb82",
+      "bytes": 220
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/branch_logs/vlrt2_r50c.summary.json",
+      "sha256": "395daa5f67d2f6e998b70c8973233ed1a1dc0c0bb7cc2a2da2944f0be3be72ea",
+      "bytes": 1509
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/branch_logs/vlrt2_r50c.tasks.jsonl.gz",
+      "sha256": "357647067d156138e790be6824a43ff00a6b8bf4cf81805c7208a133b5716fd5",
+      "bytes": 2899089
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/branch_logs/vlrt2_verifier_v6_50_merged.tasks.jsonl.gz",
+      "sha256": "7ddfe056a7f98ed8f301266e75698de671e1d2ec4979e4ba8db1976132aafa96",
+      "bytes": 201592
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/certificates/certificate_lcrt5_1e50.json",
+      "sha256": "4f8271082aefffcaabceefae00adc557c772e0b15e6398af0a5a87af188dfc86",
+      "bytes": 672
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/certificates/certificate_lcrt6_1e50_bigsieve.json",
+      "sha256": "36dcd99313126e233c2422c27afb9bbb864d2c22334ce6c86fb203a5a280b020",
+      "bytes": 687
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/certificates/lcrt5_1e50.log",
+      "sha256": "cae425e4f49c4cb117e9fd0c2755d93f2ebfb0c1289407e5c25232aaff33bac9",
+      "bytes": 7212
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/certificates/lcrt5_1e50.summary.json",
+      "sha256": "90d1d94b777feb8f8bdd11d0ff12aec08c7ee8c38a1a000c6efe9a5fe28615ab",
+      "bytes": 1248
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/certificates/lcrt6_1e50_bigsieve.log",
+      "sha256": "faddcf08a1a1b39bb9a681653a986a7526e35371a75e9c2b540c882e03c15ea1",
+      "bytes": 216
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/certificates/lcrt6_1e50_bigsieve.summary.json",
+      "sha256": "943b738c8b1e780f7de42ab3d01d7f52d7557cf5987d466d6e55dbad3135f893",
+      "bytes": 1349
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/certificates/xcheck_segc2_1e50.jsonl",
+      "sha256": "d97528b886b896d192af6f93cb1f254f3c365274b4f18d85d3820bc491e0c422",
+      "bytes": 22760
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/certificates/xcheck_segc2_1e50_primepi.jsonl",
+      "sha256": "3d3f138bebb172f7f7650e7d5d4572c90e90e25ff45105211b09319593878208",
+      "bytes": 28870
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/engines/SPEC_LCAP1.md",
+      "sha256": "dbccec803f434ba35733e69c89fac699527c81a7c465001d6d6b9c5f7eb64e0d",
+      "bytes": 6210
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/engines/SPEC_LCRT5.md",
+      "sha256": "93629274f175b207ee8eddab1727131d57e2d34587571ec4a79c12415905e2a1",
+      "bytes": 12502
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/engines/SPEC_LCRT_r1.md",
+      "sha256": "9c3ddf7d71c39ac5d5a1b75bdbba12508758ffd06f15cad92a5430e84373b88b",
+      "bytes": 7289
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/engines/certify.py",
+      "sha256": "5ab24b26cd3004bc775b1fa35fac74b2ca0a25eae47ad7662d1a8e025a6488d5",
+      "bytes": 3281
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/engines/lbb2.c",
+      "sha256": "a4df93a0974d0686c2040b94c433f1d95ad74de50b12e1104a6c5ccc6837400e",
+      "bytes": 25316
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/engines/lcrt5.c",
+      "sha256": "073296cc70d26f7c9833e063c00793a9129e00530e6e6ad207ad01931dc0262f",
+      "bytes": 41542
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/engines/lemmas.py",
+      "sha256": "a53fd401077c39e0a086ae0e0167187686353f1c790704ee3c270a8541d0e192",
+      "bytes": 1947
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/engines/merge_lcrt.py",
+      "sha256": "10485b010995e9bae0b3c01adbd83651f02c8fe7123274a07f3ada77eb8ec4fa",
+      "bytes": 3711
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/engines/planted_cmp2.py",
+      "sha256": "bc62977c3c57680c57948fe9b05e305ec4bb1dd344e9d2c5d3f5249f6fc2a829",
+      "bytes": 2279
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/engines/ref_fake.py",
+      "sha256": "ecb05bd2f7d7b0120090afd3f98c94e77942afdd4afea10a01e267742f5bcd90",
+      "bytes": 2188
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/engines/taskdiff_r2.py",
+      "sha256": "d6baabd708b7fa57066def5de8c4201707a7b53384dd66a3b98de074f44cef65",
+      "bytes": 2432
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/engines/vlrt2.c",
+      "sha256": "6cce0cf2309c1eb4f24bce441db0912e3495a5596857efaaf296e121c6e2a8c9",
+      "bytes": 22656
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/engines/xcheck_segc2.py",
+      "sha256": "bc36c4b223f34e9f44bc5adcb01d6d65adae0fab57389093995dbb94299acda9",
+      "bytes": 4983
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/how-we-built-it/README.md",
+      "sha256": "60b2ad414a3797459905f15afe2dc9ca1e12e75c66a4537a193f87a8ec64f027",
+      "bytes": 10852
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/how-we-built-it/SMOKE.md",
+      "sha256": "887f89ae63730b6b70cac8cf14cb70e86bb50eb35b9319348441e973c5b8eb79",
+      "bytes": 5995
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/how-we-built-it/lcrt5_v1_LCRT4.patch",
+      "sha256": "8fd1e37a742307a82fb979ec5fb485105e9a46abf0f895b51fd7001df73a1d64",
+      "bytes": 11549
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/how-we-built-it/merge_lcrt_v1.patch",
+      "sha256": "4b7ea1ffd56223d24e3b3a13d6a62a5b86440944046b8812469550ed0d869b2b",
+      "bytes": 1442
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/how-we-built-it/requirements.txt",
+      "sha256": "a3dae971c326b69853d426412407b84ffe02c182191f468a7c6c8a3e39f3e8c4",
+      "bytes": 443
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/how-we-built-it/run_lbb2_parallel.sh",
+      "sha256": "c35d0341e4dec499dbb5f576611e243bfcfe4571cdf6e3bdaec176cd4a54fbf8",
+      "bytes": 1114
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/how-we-built-it/run_lcrt5_job.sh",
+      "sha256": "28b1946ecf9f3a30c16b3cf54ee22cef5c25c87bf0c8e2efb3c9d4ab83e36cab",
+      "bytes": 1823
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/how-we-built-it/vlrt2_union.py",
+      "sha256": "4cceabe6434a808c6e3f05fb0380bddbea28990723b8384a301f160cf6866711",
+      "bytes": 4650
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/lean/.gitignore",
+      "sha256": "b3ad09fc93f83fdbd0bee771258dd4a58d3798fd7e6048611dde5a804bb43f1e",
+      "bytes": 7
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/lean/LehmerProof.lean",
+      "sha256": "5142634389f5a7d59391feb60487f01a438ece0e2a77ca99eff3d0bc90f03e7d",
+      "bytes": 55
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/lean/LehmerProof/Reduction.lean",
+      "sha256": "8d3e164cea3ebf16f15694770a5214506f095070ee43c1525c3d7ed3db8483b6",
+      "bytes": 14911
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/lean/LehmerProof/Search.lean",
+      "sha256": "2a3a026cefbb005ef898494ff199d8234e1486a55a363fac60cc22f5cca48960",
+      "bytes": 14051
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/lean/README.md",
+      "sha256": "761e5568b1d089f397f15bd522c37dda72220e8b63080fdf36186a23312a26a6",
+      "bytes": 3695
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/lean/lake-manifest.json",
+      "sha256": "3340a8d13c0549fbdbbacd2239f7c746f6f5fd24a2c02f0a897d32d2325ee266",
+      "bytes": 3153
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/lean/lakefile.toml",
+      "sha256": "bbbf5cffe5eab03e827c021b99edb8063fd4e7237452a5d5395a8ae59f300048",
+      "bytes": 366
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/lean/lean-toolchain",
+      "sha256": "8f89aa44fccdb1a0b6cc768c7c9f54b94cd40e47a08d582f82d1235f13075cf7",
+      "bytes": 29
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/verify-it-yourself/RECEIPTS.md",
+      "sha256": "93eb139e1ec100cf5d82fb94e5b8b6bf4edffb00cc676d7ed0891ca839f93bf0",
+      "bytes": 10495
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/verify-it-yourself/closures.py",
+      "sha256": "4e6622aaae5def4de6227d9ce9cf3f5a3c4573a72b2d5257b0140479aebb346e",
+      "bytes": 2780
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/verify-it-yourself/diff_runs.py",
+      "sha256": "7ec0023a4677146d0cdc24528c3738bb2f416f886393534b50740f13e91c5f1c",
+      "bytes": 4022
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/verify-it-yourself/lbb2_aggregate.py",
+      "sha256": "c34f4ed80deee2eb4486ddccd230e8a8e27cb16ecfd366589e1745499c64393d",
+      "bytes": 3311
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/verify-it-yourself/recompute_summary.py",
+      "sha256": "e665cb36d5191176a28a30ee62a67272e66a5480d04c324a584003371197f7c7",
+      "bytes": 5121
+    },
+    {
+      "path": "v3r1t4s/known-knowns/lehmer-past-10-to-the-50/verify-it-yourself/run_checks.sh",
+      "sha256": "64c1a17b89f0be53eeba6156f55a7bcb833a3a0df7fced9292c60edec1ed798d",
+      "bytes": 2618
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/HOW_WE_FOUND_IT.md",
+      "sha256": "1a01f7889998d1411e875a868fb59c7c5b4ada57b7191d9c60225674075dffb6",
+      "bytes": 4233
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/INDEX.csv",
+      "sha256": "5525fd7dbb94ae824b0048ba2aabd9cb4c69da945c5a8be2edba4f02b04272d8",
+      "bytes": 769
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/README.md",
+      "sha256": "e6400de918d5dd797ecd22312bcc8256ba629aeb7f2c1aa3a4c1475f16ff1382",
+      "bytes": 6853
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/RUN_IT_YOURSELF.md",
+      "sha256": "ac862249506b799a13382cf5e3aef2dc00c7f88aadcf2bac6b156c353549bb49",
+      "bytes": 4028
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/adversarial-examples/robust_indices.txt",
+      "sha256": "2f6b08ff82e6337bb1c6c81579bf6ed45ce2f70e83721422707b2ed4a0ab08bb",
+      "bytes": 13463
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/adversarial-examples/x_adv_Addepalli2022Efficient_RN18.npz",
+      "sha256": "da17d7c6bbb4c4fffb6dcdb66711f02223ad5c58a1362973d167248107477a07",
+      "bytes": 45517304
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/README.md",
+      "sha256": "3b18edc775353a7113a5aec9ee66f032a50a5558e0c0ee4678d508d7f3573fa4",
+      "bytes": 10525
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/SMOKE.md",
+      "sha256": "e4d7dfb8ba28b19e475a77d4d028c403a42af60dd94dd95620ebcaeea3806b50",
+      "bytes": 4811
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/apgd_lib.py",
+      "sha256": "aa68fca68da3b4994076bb1694f6ad79f464f7b501ae06163e5f081608825fb5",
+      "bytes": 11113
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/assemble.py",
+      "sha256": "68504f74665e3b8f88b9db0e7ab16c763ac3031d59e1d871ce7f4a6069036ea5",
+      "bytes": 5087
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/assemble_final.py",
+      "sha256": "75451afb1c07bff2d8d31a46e182062b21b56dfc91a1bc3a896cd097f515fd5a",
+      "bytes": 4830
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/cr_residual.py",
+      "sha256": "b133eb9d43e0273641dcf92b51e77343aa43db5f791c09b7e4c65f039de76627",
+      "bytes": 16732
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/feasibility.py",
+      "sha256": "fe33bef5170e3491e456faae69fc5298eaffbb135fba178998928232d2d1d77e",
+      "bytes": 1202
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/make_cr_attack.py",
+      "sha256": "e39ce84919d0318018a518c27f8d93744b22513079c25f4a294b7f0765de46f8",
+      "bytes": 6004
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/mask_from_margin.py",
+      "sha256": "b6d1b5782873a8488fbd0717ec4a6944870bda3c1273f8cdd0ffd6f928ffdb8a",
+      "bytes": 596
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/multistart.py",
+      "sha256": "a93790d9e75e489578da938951bf52cd88542bbee07d5e850beba7fdbe226b64",
+      "bytes": 13956
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/order_survivors.py",
+      "sha256": "78b0821090e72c489fb51ca281cd6c95ca37f21d7aa07bbe37811ecac3dbf37e",
+      "bytes": 1067
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/rb_common.py",
+      "sha256": "b589fa31d6674f6ec7316e7d190d3bb296af1aefc558d5a631a593dd75416d78",
+      "bytes": 5850
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/rebuild_base.py",
+      "sha256": "a6d60717714a24db47b2c6fffda7a8f5b53e72a8c9dd3b3ca5a651943b547690",
+      "bytes": 1441
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/regenerate_final_step.sh",
+      "sha256": "9409b1da80109784b4d3e8c007424739dd929758aba35f7699ac11627ff64209",
+      "bytes": 1555
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/requirements.txt",
+      "sha256": "aa7b86d919a4a0f70015d9a5d7f8fc127839f0233a12521b912963a7fee91049",
+      "bytes": 1266
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/smoke_pipeline.sh",
+      "sha256": "7d0c92b82e068f576512dea0e978aae374038d9ee318b33e89a7450116a14cfd",
+      "bytes": 3684
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/stage1_apgdce.py",
+      "sha256": "37f529df6cb7101dea7f80c820b26ea482386792140ea888e501f04c5b769b07",
+      "bytes": 7053
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/stage2_sh.py",
+      "sha256": "cbc162270b4259423b3da95a0056b20b9336bb00f481f673957f179431da3138",
+      "bytes": 18652
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/stage6-inputs/base_row_cpu_margin.npy",
+      "sha256": "c57a2ff7d639e535847c0c2d0d7f486f81e1342886543ef56621969339930792",
+      "bytes": 40128
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/stage6-inputs/base_rows.npy",
+      "sha256": "9b07c33226066a4082c2ce2cac6a3082632343e31a667b7dc2f420cde8d487ab",
+      "bytes": 61568
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/stage6-inputs/base_rows_idx.npy",
+      "sha256": "fbd40a1d6a3647d3144108626c51b4d666fcebce4099ce4968488f73ba14eedb",
+      "bytes": 168
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/stage6-inputs/run_a_seed11/best_cpu_margin.npy",
+      "sha256": "7b6820be480a3e6126cff0a2c7e6063a454bc3462ed2d28080a896d2c8054ab2",
+      "bytes": 148
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/stage6-inputs/run_a_seed11/best_x.npy",
+      "sha256": "dc4565c68945028f35b2913b78a66e39413113c7cf059619104c911c6a88c207",
+      "bytes": 61568
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/stage6-inputs/run_a_seed11/idx.npy",
+      "sha256": "e6b77f650dc3923225291f97994c29bfb3407d632ccf30351c5de20e0d04a972",
+      "bytes": 168
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/stage6-inputs/run_b_seed1/best_cpu_margin.npy",
+      "sha256": "15cbfdd01196191736d0ef706b0beb661dc903147d0af2223952a883b3e5736d",
+      "bytes": 136
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/stage6-inputs/run_b_seed1/best_x.npy",
+      "sha256": "c1c77eda0282e485fbe2c4833b257d776f695ade8e833c5d70371a3d1387b2d0",
+      "bytes": 24704
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/stage6-inputs/run_b_seed1/idx.npy",
+      "sha256": "edf7be3594e0080cb9f90305fcf45b3169fbf951d309cfe9cc7a4f1590960b2a",
+      "bytes": 144
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/stage6-inputs/run_c_seed3/best_cpu_margin.npy",
+      "sha256": "b0a7824f24bd9e86ea225843d331b05de8366aab744f92c06cd1356ee114da59",
+      "bytes": 144
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/stage6-inputs/run_c_seed3/best_x.npy",
+      "sha256": "cc6721c6a891f14f2e18689f59a51fc71d5675701aaf84fdd65dc899a4b24d86",
+      "bytes": 49280
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/stage6-inputs/run_c_seed3/idx.npy",
+      "sha256": "74aea77fb485eef479f5c0a789df2d941a365f4730191ed105dfc93e7e2f6f41",
+      "bytes": 160
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/how-we-built-it/warm_residual.py",
+      "sha256": "090d1418e58af7c0f63cd4725cd7bdf56f7d95a64efa3769d0b94e7fb690bda3",
+      "bytes": 23916
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/the-record-we-beat/sources_2026-10-12T03-36-53Z.json",
+      "sha256": "5b86b9a6094b25f994edc8bccd061bbc7147963adeceb81a274fda6fe4f5f152",
+      "bytes": 2905
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/verify-it-yourself/RECEIPTS.md",
+      "sha256": "ee425fdc2969ef5832cf98e276f45ee01dec2d483e2f62e35475e0ca40a0d664",
+      "bytes": 4410
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/verify-it-yourself/rbcheck.py",
+      "sha256": "dad81b7ef42a1da537f17e1854010654a726b19ae99bfe996f56b3baa513b906",
+      "bytes": 7175
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/verify-it-yourself/run_checks.sh",
+      "sha256": "d776bad48fa04d6c0e5f9e9bee3260ba9c233bb462cd4411328378de3da15c64",
+      "bytes": 1658
+    },
+    {
+      "path": "v3r1t4s/known-knowns/robustbench-cifar100-stronger-attack/verify-it-yourself/unpack.py",
+      "sha256": "e9acc95302d45b8b7deeaa5aad0e3dfac753244208210b015e2e7432356fb3d9",
+      "bytes": 3623
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/HOW_WE_FOUND_IT.md",
+      "sha256": "6d0a11e210d70e46aeefede9dee10880d8b2ff127e48b7b2491472bd9f0dda3e",
+      "bytes": 4615
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/INDEX.csv",
+      "sha256": "6059692a7463cd89ebaa7b989b043096aac3415dd48ee60c7a523091a86e0658",
+      "bytes": 1379
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/README.md",
+      "sha256": "0534713f9417cfc5c26e758eab62164b28aedb90d853c8779e17bcf71f90a659",
+      "bytes": 7087
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/RUN_IT_YOURSELF.md",
+      "sha256": "5227966a3e16950a98c60cb60391e1a78972045f0a4fb6fe1241f16f0b9daa01",
+      "bytes": 4538
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/how-we-built-it/README.md",
+      "sha256": "0cb481fd2c89a9f7ec8e648f613fc884fab32a1805c4f409f74fd07de7db0588",
+      "bytes": 7862
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/how-we-built-it/SMOKE.md",
+      "sha256": "ff377e07f4933a79445fcae5821705f0507b76e4eb5a6ee853f7e7f0c97c1727",
+      "bytes": 4803
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/how-we-built-it/bnn.py",
+      "sha256": "6951802c51f5bbcd645a9283083040d988eb6fd6816df6976c66b71c0a4d77e1",
+      "bytes": 4748
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/how-we-built-it/check_surrogate.py",
+      "sha256": "329473094d4a6263c360501c393920139f7c24673cf8de2d7bcf2a9585d35a0b",
+      "bytes": 3382
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/how-we-built-it/checkpoints/ckpt_idx_1703_cls22.json",
+      "sha256": "648b7471a000a6adf810d6cc34fc226bf80867c49bff6cdc1ffe82b75ee2cfaf",
+      "bytes": 9463
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/how-we-built-it/checkpoints/ckpt_idx_178_cls15.json",
+      "sha256": "ce7dd6228d338667b0277363d90d90c0c7235f50d40b879a6bcb5a6e0a16aabf",
+      "bytes": 9318
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/how-we-built-it/checkpoints/hint_idx_1703_cls22.json",
+      "sha256": "bbcf487af28766de5e566854edd1015139539a5a3f30e1d72e40632fcc7a8a49",
+      "bytes": 9530
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/how-we-built-it/cpsat_bnn30.py",
+      "sha256": "c35285dd18c29e5cbd99c86fbbbe951e9143ce0c5e577a82c8a56ad48ff0569c",
+      "bytes": 8972
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/how-we-built-it/make_witness.py",
+      "sha256": "27b5b17b2b78645d16f3082b7e8d0d43db6ff4a7b64e0450b0f2c684f7106ed1",
+      "bytes": 2728
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/how-we-built-it/regenerate_from_checkpoints.sh",
+      "sha256": "067788acb2993645bf881562efbc3494e3eef238249af36119abe22fc203f98c",
+      "bytes": 1957
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/how-we-built-it/requirements.txt",
+      "sha256": "86554cbf680d639d743279c4376e7898201fe0f79b7e650bf5029814f2d62543",
+      "bytes": 187
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/the-record-we-beat/parse_results.py",
+      "sha256": "25ecbca9c365370aabdcc6a808c5415cc2b8570f4d62aa6d4b5cf9de9b418b79",
+      "bytes": 1610
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/the-record-we-beat/sources_2026-10-12T03-36-49Z.json",
+      "sha256": "43449ee971d3a5be9369145c16b86af4b8da6881c5f02322b3a06c987ddeccaf",
+      "bytes": 5001
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/verify-it-yourself/RECEIPTS.md",
+      "sha256": "3a926c18a38617c42cbc88a9511558711f65be727e3f56e1e8e446ed45d2f123",
+      "bytes": 7400
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/verify-it-yourself/mutate.py",
+      "sha256": "b577eb4418e396fd889bc0d750b3c8e7cc8e52f37670c2f9607ed6b06928f36a",
+      "bytes": 1460
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/verify-it-yourself/official_validate.py",
+      "sha256": "0dac54e56ddcbb24844cb2890aee8fc4f2cd9700298031679074b22c22929f6e",
+      "bytes": 4214
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/verify-it-yourself/run_checks.sh",
+      "sha256": "85cd214ee2812b4564b0adc140188131a6e237bf676a07879cc5002918bfb557",
+      "bytes": 2639
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/verify-it-yourself/vnncheck.py",
+      "sha256": "f1ac81f727395a6e426662eb7ed5218c384a24f0a175ec2a30e02f311f429f0c",
+      "bytes": 11051
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/witnesses/model_30_idx_1703_eps_1/witness_plain.txt",
+      "sha256": "80f4b5a8284931dd0f970d61f1289db47b62a46856edbcb9f19c76334c5580f8",
+      "bytes": 31196
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/witnesses/model_30_idx_1703_eps_1/witness_v2.txt",
+      "sha256": "c0a0e2177da623d49fadb5d1971fdb3cbd7eac1fa357445602c49469f79a17fb",
+      "bytes": 31448
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/witnesses/model_30_idx_178_eps_1/witness_plain.txt",
+      "sha256": "83c8b41e31f7f44ada880ffd67de003e06891d9b3994a18a49154af36f35ac98",
+      "bytes": 30668
+    },
+    {
+      "path": "v3r1t4s/known-knowns/vnncomp-2026-unsolved-instances/witnesses/model_30_idx_178_eps_1/witness_v2.txt",
+      "sha256": "281aba6d70b19ce536c41eef4d82e4eb508accadf7247e31204d631cb863bb8f",
+      "bytes": 30918
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/README.md",
+      "sha256": "171c0fbf4331f0ea5ffd77ec2ec97f1baa7e60c878e01f79309d24ce7cbe4549",
+      "bytes": 2726
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/algorithms/README.md",
+      "sha256": "20f112fece4f04f9ba8080f005349de168e00701136893e87ddb5339760632dd",
+      "bytes": 1389
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/algorithms/adderboard-smallest-adder-transformer.md",
+      "sha256": "2c1a091b18db58fbc18071be6e26cfbe55e4a4c1e3d215e0abc5808138fa2ec3",
+      "bytes": 9703
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/algorithms/fmm-4x4x4-rank47-3x3x3-rank22.md",
+      "sha256": "49bedf162b6aac5150e5d160083d59e9b10c4741692e8f6d33034b5e9f0d4382",
+      "bytes": 7912
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/algorithms/fmm-additive-complexity-records.md",
+      "sha256": "1c1d7b988d1f574d8f6e4ba20e82b6501044375652401be65a66b1c86adf846b",
+      "bytes": 8557
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/algorithms/fmm-catalogue-small-format-rank.md",
+      "sha256": "a0a973dd60b4cf21a9a4554e92815b7ec8f1fc28572cb688cd90b56e7104377b",
+      "bytes": 9210
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/algorithms/fmm-ternary-integer-ring-upgrade.md",
+      "sha256": "d4a6b56d1452c8214ec9a8f2ccccebfc26f64995f94f0329531f36fdf40771ab",
+      "bytes": 8355
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/algorithms/packomania-csqv-sum-of-radii.md",
+      "sha256": "5157223efb9ceb2a9e95323f4ebf92f692494beaed207fcd07470bd7dd5d102c",
+      "bytes": 8910
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/ancient-texts/README.md",
+      "sha256": "55f6a67e5589f63a78958317c06e23472074431aab91e86334db0e40534de88b",
+      "bytes": 1096
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/ancient-texts/akkadian-lacuna-restoration-heldout.md",
+      "sha256": "29b43a0737c449cae17d51876e306cce745d67e79806102700523b7626621043",
+      "bytes": 7252
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/ancient-texts/cuneiform-sign-detection-maicubeda.md",
+      "sha256": "4f3dc2a6d8b8de476c32327b694a5134f32760ef1113f989880619a955505897",
+      "bytes": 7766
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/ancient-texts/dclp-unidentified-literary-papyri.md",
+      "sha256": "c163e67d73988756d07d2d41439f371d3fa85685201fe30004c9a5c172e6cff6",
+      "bytes": 8262
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/ancient-texts/ebl-unidentified-fragment-overlaps.md",
+      "sha256": "9abd0996b8261e0664a901614c1385e7a81fddfe76c819c2a0e1d80fa876bcdb",
+      "bytes": 7857
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/erdos-and-proofs/README.md",
+      "sha256": "fefab8c8ce712f6b2010df66d6e1dca02bc7bf52da59b46e366747b4d8836451",
+      "bytes": 2742
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/erdos-and-proofs/erdos-107-happy-ending-n7.md",
+      "sha256": "f073c56c61e92e142c5e20f77bee52dbfe4f93c0711484b41ee7b5de89f14ae2",
+      "bytes": 3403
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/erdos-and-proofs/erdos-1082i-distinct-distances-general-position.md",
+      "sha256": "5779a0e1cc2eb511b31e7745726e61280271ddf615140b37105ff8e3b18461d6",
+      "bytes": 4858
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/erdos-and-proofs/erdos-287-egyptian-gaps.md",
+      "sha256": "2188397c1b3bc158bfd2efff2639aae120a930d965c01db19b67486301a3ff92",
+      "bytes": 4576
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/erdos-and-proofs/erdos-307-barbeau-prime-reciprocals.md",
+      "sha256": "43cf080aeffa68d069b89988db5014376ce96dd6d99b31170e7060f80f88bb66",
+      "bytes": 4180
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/erdos-and-proofs/erdos-506-circles-small-n.md",
+      "sha256": "570094e66e46b6d8039cb93410f9d497dd78e234127676d7e3c24ebe841635c7",
+      "bytes": 5027
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/erdos-and-proofs/erdos-617-balanced-coloring-r5.md",
+      "sha256": "abf3bde87b397e360f3ada95a084c1580ed24326ca6f403c754123130eea4d4d",
+      "bytes": 5689
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/erdos-and-proofs/erdos-699-binomial-gcd.md",
+      "sha256": "7716fe2d0f5aaf203a080a878e7b930f411a4491981e82da439f35d817169d12",
+      "bytes": 5159
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/erdos-and-proofs/erdos-7-odd-covering-system.md",
+      "sha256": "17a16aaf9bc393c9da0eb313b29f2dd682a25156497edb94b672bcf5800f2750",
+      "bytes": 3780
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/erdos-and-proofs/erdos-723-projective-plane-order-12.md",
+      "sha256": "ff9a6c0ee2ade43ed63c2e558cf3f3d84fa6b30bcbf32172d63a3f144ffde232",
+      "bytes": 4191
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/erdos-and-proofs/erdos-835-large-steiner-systems.md",
+      "sha256": "77658ded768c55e3928763b6d608bfe4192dedaf5b5c4b1293849643c57b2ff1",
+      "bytes": 6669
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/erdos-and-proofs/erdos-993-tree-independence-unimodality.md",
+      "sha256": "1706d7d11dc6008b3ceef396fc63387a5d3c6680cc0771e71e6396c16dfd00e9",
+      "bytes": 3736
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/erdos-and-proofs/ghr-sum-difference-c3a.md",
+      "sha256": "3daa9b304aad64e990ff67a2b98cf61c34a7368aa4f0987c914f77a5e848b154",
+      "bytes": 4560
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/erdos-and-proofs/sunflower-free-capacity-lower-bound.md",
+      "sha256": "91c965934347b26e7889da7df942c3717e2f0865f2aebee1ef81532e07122af0",
+      "bytes": 5546
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/graphs-games-automata/README.md",
+      "sha256": "2bc61555f00e61b27f4f734ae5dfbe6543b5fe9d098065e4d93d8e055d026972",
+      "bytes": 2134
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/graphs-games-automata/cage-upper-bounds.md",
+      "sha256": "5c54e30229943916e1885130a713330d3183fc4d517533ff7f43341e23c89802",
+      "bytes": 4877
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/graphs-games-automata/conway-99-graph.md",
+      "sha256": "f588fa96558bf1e8688f9c5edd808b71bbcd903c0bdd5f35b54cb35c0f56d8bf",
+      "bytes": 3415
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/graphs-games-automata/costas-order-32.md",
+      "sha256": "00497621e00cac5f46f43ff00043bd2329edf298c8d672ffc70abc1eb38f7258",
+      "bytes": 5292
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/graphs-games-automata/degree-diameter-table.md",
+      "sha256": "a80bf9b8062c8cf45dc7335e64b8d2648763f6ff0c12dab68d322d5edba045c3",
+      "bytes": 5529
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/graphs-games-automata/heesch-polyform-hc5.md",
+      "sha256": "dcfb4a3938171eaedd04335267e597df211fcc521301d3504f382d195deb31fb",
+      "bytes": 5419
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/graphs-games-automata/langton-ant-highway.md",
+      "sha256": "2f97456f750881fd32c8a91f4b68838cbf822f8706055760496f1ed976177598",
+      "bytes": 3958
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/graphs-games-automata/life-smaller-orphan.md",
+      "sha256": "8ef6a5eeee2db560cb3e4bb86a3695ab2dc6588a991d7125c7b6279653f59c13",
+      "bytes": 5134
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/graphs-games-automata/moore-graph-57.md",
+      "sha256": "d887452d6fba01d6c2df9234c44ff7a0059b0d74d869594596b0c7e4be2af98a",
+      "bytes": 3561
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/graphs-games-automata/no-three-in-line-n75.md",
+      "sha256": "745f1cec472200acd565a3362eba26f8aa689604e5b56fdc8164ef0789e22823",
+      "bytes": 10300
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/graphs-games-automata/polyomino-order-6-or-odd.md",
+      "sha256": "6236f41cfed3787045d89c124d197d942af17cec0fb1e688d96dbac623a86026",
+      "bytes": 5206
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/graphs-games-automata/rectilinear-crossing-kn.md",
+      "sha256": "d9153c07b86b9709299df2a80b3f50ab4f4406f7db2af8a7c9bbb25b802f03c4",
+      "bytes": 5281
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/graphs-games-automata/revenge-gods-number-bounds.md",
+      "sha256": "a8e8db3d0f13568fb87cdf83a12782430112e37b9db121ad3b3c6e10b4dd8167",
+      "bytes": 4792
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/graphs-games-automata/schur-number-lower-bounds.md",
+      "sha256": "9e6d8630d8d16fee3653a7cbb8ee4be87cbf40e42fe65fd429fbf4862a26e62c",
+      "bytes": 5155
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/graphs-games-automata/slide-24-puzzle-lower-bound.md",
+      "sha256": "fe212184d2a50f65d114eaea91b71962d8ae607d51d1d989be1bf899674eb46b",
+      "bytes": 5160
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/herculaneum-scrolls/README.md",
+      "sha256": "884b81f4461b1def176ef03c6a10e279c2bf8532ca8e2dc647fb76c8ec855285",
+      "bytes": 1054
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/herculaneum-scrolls/vesuvius-first-letters-unread.md",
+      "sha256": "245d0ab12811a3627801644b24d0a5ff5f70c7ed524a0fd8acfe5e1c406e432b",
+      "bytes": 9221
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/herculaneum-scrolls/vesuvius-frag4-ink-f05-holdout.md",
+      "sha256": "f273744bea671f337580cafad1e642eb3e64f177dddf7ac231ae6bccb7758972",
+      "bytes": 10352
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/herculaneum-scrolls/vesuvius-profilometer-ink-dice.md",
+      "sha256": "f12eefbd51cccb84c3680c797ff4bbeb6e0dcafbc492e949a09e0dea82b8596b",
+      "bytes": 8902
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/herculaneum-scrolls/vesuvius-surface-topo-holdout.md",
+      "sha256": "29048a9673ca042416c56992931bf2e9bea7c0d1b2a85cbeedd169d7195bc007",
+      "bytes": 9060
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/ml-robustness/README.md",
+      "sha256": "43ede0271ff253ef439b712da6b2ab04ef8fe15c482cba3859496418d65e1fda",
+      "bytes": 1298
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/ml-robustness/robustbench-cifar10-l2-beat-autoattack.md",
+      "sha256": "a6391cbac8076b0725cf290e06a3c3558543c8d66a06f5a3b05a62f47b04e81a",
+      "bytes": 10867
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/ml-robustness/robustbench-cifar10-linf-beat-autoattack.md",
+      "sha256": "d13efa4c6be05b5ecd7bf523afbd4e1aa743ee6d760a17c6cf806292ec4d3638",
+      "bytes": 13315
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/ml-robustness/robustbench-cifar100-linf-beat-autoattack.md",
+      "sha256": "6f527b90f503bfedf4cbfc22e581ab42a2afc8949e0ff68f2c5c436eb76ddd31",
+      "bytes": 12194
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/ml-robustness/vnncomp-2026-unsolved-instance-counterexample.md",
+      "sha256": "088fe8195eee9651707b1088d62df740bc437e7bb4bf8d57853be7de69557e38",
+      "bytes": 12718
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/ml-robustness/vnncomp-verifier-holds-soundness-counterexample.md",
+      "sha256": "964369a5281de20527e081df5cb685a6fa2377c58e2f01f3a9cab1f258b2ba06",
+      "bytes": 15420
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/README.md",
+      "sha256": "137bd17eaf0199f55ea90614f0c4a26a9183261a95b17d05ba0c31d26ad38d89",
+      "bytes": 3233
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/abc-high-quality-triples.md",
+      "sha256": "4ef8e067a2f35693269700265bbb7d2e06b7428655aabb8b12046dfd36dff482",
+      "bytes": 4610
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/antihydra-collatz-cryptid.md",
+      "sha256": "4537b6f0712f754ae0fb2137d577ce7d9d530b0c1699254f21082ed44fbaa4cb",
+      "bytes": 5020
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/bb33-bb25-cryptid-adjacent.md",
+      "sha256": "1cba9ae37b2fc7c465a57b6c2c574532efa30c4ac3f4e826da2fcee75ca47c25",
+      "bytes": 5466
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/bb6-holdout-certificates.md",
+      "sha256": "6c6e5a2bc3f6c47b4976d9ddd49f7bde979f60eaf342973db66c8f03d893b406",
+      "bytes": 11137
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/erdos-moser-bound.md",
+      "sha256": "90f0dde1a9e9990a713a4509cb58bb4294aac776fd03cc36561565451c3cf90a",
+      "bytes": 5785
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/erdos-problems-computational-nt.md",
+      "sha256": "6e145a9ce78e0599c2981a21c3a1f91addd1c834005ab046989fb931abfd9635",
+      "bytes": 5311
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/fifth-powers-5-1-4-new-primitive.md",
+      "sha256": "22cd7af087a21185aab31bbb3dc5bc59e6f02a990c50a48852a2b611fc45fe35",
+      "bytes": 4723
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/hall-conjecture-good-examples.md",
+      "sha256": "1b999cdea2ba4fc41d7a2cfe8d8023da83f72649d7a07f9e210d3ed7377901c0",
+      "bytes": 4388
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/lehmer-totient.md",
+      "sha256": "5d12e29d1ff187552a9f66573aee231530302484a67488c1054558b8ae9136bb",
+      "bytes": 4219
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/lychrel-new-base-proof.md",
+      "sha256": "ea774078a2d2e0fae681f0338a3b059c8b0ced93589dd3c332464d3d541ba609",
+      "bytes": 5931
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/magic-square-squares-7.md",
+      "sha256": "4fb3b6e6988bc4f5378c6f83268641c44dc257c2bb0594cf814aa9133b912578",
+      "bytes": 5833
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/mahler-measure-new-small-polynomials.md",
+      "sha256": "d758ba167d301f3ce0fa4e4551191c625f823d5723411cfdb43f66347a3fc483",
+      "bytes": 6419
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/perfect-cuboid.md",
+      "sha256": "d529cac5fbe59dd78cfde27601bda3d726781bb6fe7817b36efcb80faf0d0d99",
+      "bytes": 4083
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/perfect-triangle.md",
+      "sha256": "77687a4822436cd8d0d5053405a69a9a3fea271afa5b8265919c48f660796a1e",
+      "bytes": 3858
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/pte-ideal-size-11-13.md",
+      "sha256": "e0ed1cf6c78d588ce1715aa82c1838593720b009b8cfe6dc5e805ca39d01ef8e",
+      "bytes": 4479
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/rational-distance-unit-square.md",
+      "sha256": "ffca12e1a49e93efbfeeee69cb66acd3135109c3887d1df684ea7c614cc08539",
+      "bytes": 4021
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/sixth-powers-equal-sums.md",
+      "sha256": "a5cf8b9cf69c331b42e2d4d54f2aa4895551ac617e15abe34cd9c2ee44e34a10",
+      "bytes": 4681
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/sums-of-three-cubes-114.md",
+      "sha256": "c011f9b7bae501f567055c503951903dee7d84d5f10c843b05d14a948690637e",
+      "bytes": 4441
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/number-hunts/taxicab-7-upper-bound.md",
+      "sha256": "ae17f769074a5ddb98842a991720c679bc5ed774739d092b2c0ffcfa41ffef68",
+      "bytes": 5087
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/optimization-benchmarks/README.md",
+      "sha256": "f26b817b662cc6dfa407fb53a869c4b10438d208bd2001802d394790a2e6d692",
+      "bytes": 1365
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/optimization-benchmarks/cvrplib-vrptw-gh-dimacs-bks.md",
+      "sha256": "000831a90fdc84715d3be5d5e2d422e415903f79ddbcf0ab8de0db363610483e",
+      "bytes": 8950
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/optimization-benchmarks/cvrplib-x-xl-xxl-bks.md",
+      "sha256": "f87416581ad7c383c88d17be9c78463ce6cc2eba45e3cc6d1ba47207976a15ae",
+      "bytes": 8661
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/optimization-benchmarks/jsp-optimizizer-open-upper-bounds.md",
+      "sha256": "28de3dd8c827d66123b36998f02dc642fdaee071f30dbcd0aa6aaada76d0266a",
+      "bytes": 7614
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/optimization-benchmarks/miplib2017-open-primal-bound.md",
+      "sha256": "f97e1c186c35c1620da55e2ada238f9f29d2816d1bb2433cf393d5393bce54c2",
+      "bytes": 8116
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/optimization-benchmarks/psplib-j120-rcpsp-upper-bounds.md",
+      "sha256": "5a2182410328e404214d1bf883e3e0517565806150b99b7ea52f2ec8a8d1e735",
+      "bytes": 7888
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/optimization-benchmarks/sintef-lilim-pdptw-bks.md",
+      "sha256": "e1a8347004c8ac9809c243c6db5b465a3f033b2459a3e250ba24e48a67d646e0",
+      "bytes": 8291
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/packings-physics/README.md",
+      "sha256": "263831ef162c6a94324eddd9c6574710ef08f8465eb37a5b91447b553d59a102",
+      "bytes": 1527
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/packings-physics/lennard-jones-ccd-doye-table.md",
+      "sha256": "fdf6766fd6be24dc44d210cd9c2d6d212919d1111f7e675b33b67edc8fdbaffa",
+      "bytes": 7855
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/packings-physics/packomania-cci-equal-circles-in-circle.md",
+      "sha256": "662527f786fa26d8c8718f4a69193ff251626d1656e2c3bfb8d098c200d94cfd",
+      "bytes": 6942
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/packings-physics/packomania-csq-equal-circles-in-square.md",
+      "sha256": "498618b595ab154ef089c78649feeb049381858d2145898da882712b38410735",
+      "bytes": 6858
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/packings-physics/packomania-hyperspheres-hsp4-hsp6.md",
+      "sha256": "4775cf40d943f1e0e7c5a34fe310b145f956c3c306d77d2d34d3ca9511849c43",
+      "bytes": 7163
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/packings-physics/packomania-scu-spheres-in-cube.md",
+      "sha256": "ebbf93f089c2da58d0ebd2d48dee467c5fd0974f0a11c42a7cbfbb1cd95421c3",
+      "bytes": 7243
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/packings-physics/spherical-codes-cohn-table.md",
+      "sha256": "f6187f64d89e8f979dfb8a6cf4a0484560229dfd6283655492e47b7c86cbccba",
+      "bytes": 7404
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/packings-physics/thomson-problem-live-tables.md",
+      "sha256": "2be43985c741bda5486a140e3ffe9323c007029c207e9c2badbb814c7bf0eae4",
+      "bytes": 7601
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/README.md",
+      "sha256": "ec8338586ca240216a76b9dd3786ef7f1785269e1e0fd28623a1b205d3472f40",
+      "bytes": 2843
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/alphaevolve-analytic-constants.md",
+      "sha256": "655d177284d213694cd169dd274d5af7c1f151b8dba735afa194c3f1a492b6b9",
+      "bytes": 11378
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/cap-set-dim7-dim8.md",
+      "sha256": "29f068749254c70b797983f19a7c553ec47e8db2f6e3f702f3ec508fe34a57be",
+      "bytes": 3882
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/codetables-binary-linear.md",
+      "sha256": "c3dee4d3498b5dceb9ff04f09138952c5d84650ccdcb3dd26ea2e7256b6619f9",
+      "bytes": 4827
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/constant-weight-codes.md",
+      "sha256": "0abe9ae9bafe74786c2e915e30e70e1787c601c51f46d42e600be85551ef1447",
+      "bytes": 5313
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/covering-designs-record.md",
+      "sha256": "fa2b2d8ca3590050688870a05e66b602ad064752232094e147b1e5e136dbe9ee",
+      "bytes": 9836
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/erdos757-sidon-in-45-sets.md",
+      "sha256": "40230ceed0f5a150e31456ad9049de9455ead923c7bff60e7e052b4986cc4782",
+      "bytes": 7016
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/friedman-packing-records.md",
+      "sha256": "1752abc331df1b93f46860e235a711c27f9e6de8252ef1a90c525632a30246d3",
+      "bytes": 5183
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/hadamard-maxdet-records.md",
+      "sha256": "e627ca62923932925bcb8dcb0cc392ddf58e07ed2f6af696b2404ed9e6084286",
+      "bytes": 6554
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/heilbronn-records.md",
+      "sha256": "cd0dd7ccce22e11942e06cc6756b1764c826accf37c35091803717cc0a910274",
+      "bytes": 5100
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/kissing-number-dims-25-48.md",
+      "sha256": "6b5721644d2f1c17f92eba0a4f68801f48dd6ba44a0af0606ef0886f0c228bb3",
+      "bytes": 8989
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/kissing-number-low-dim.md",
+      "sha256": "bd7ed3d98d95bf4cf34b2f91506ce2e8b6cbf5b4163ae729f686fe793bd16da0",
+      "bytes": 4387
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/labs-merit-factor-records.md",
+      "sha256": "f9ed5acf88dbe97bcfc9012a962912db0a1c9185b5527cbac84d6b393d83a675",
+      "bytes": 4458
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/shannon-capacity-odd-cycles.md",
+      "sha256": "be0da3e24591d32caab5cbc6cfef22164f808a5e6351140fad7f5e9d50b68216",
+      "bytes": 9106
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/small-ramsey-lower-bounds.md",
+      "sha256": "167df629888c91aafb66905af7023167105c97c29cb34daea6860b4e3aaae531",
+      "bytes": 6106
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/snake-coil-in-the-box.md",
+      "sha256": "8b419238d5ef42d01fd6c31a64c559e7ce42d3b0f67c7104737792d26f5b8702",
+      "bytes": 6993
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/sorting-network-size-records.md",
+      "sha256": "52c1aa7e796f27e39d0474c7c4aa7e4b76490155ab1945432f14655700a6a8a2",
+      "bytes": 7646
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/record-tables/superpermutations-n7-n8.md",
+      "sha256": "5ce6fbe32861d631eb3efe83888562bde79790592cbbb17c4baa0fec0100d551",
+      "bytes": 4062
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/sky-archives/README.md",
+      "sha256": "f383a92b26fd8fea06e450bb7f4e76b51135ec9135d4473791850aa6d9953838",
+      "bytes": 3122
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/sky-archives/asteroid-precovery-arc-extension.md",
+      "sha256": "f02d29aae3971943d221752ae359ca4755b8d9a0f9d388dadec1288cca5f2575",
+      "bytes": 8886
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/sky-archives/kepler-eb-circumbinary-transit-candidate.md",
+      "sha256": "57c639abfeea19eb15af15f0847b26eff29a3cef900d706a78a57086321ce71f",
+      "bytes": 8997
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/sky-archives/kepler-k2-new-vetted-transit-candidate.md",
+      "sha256": "84aa689ebdd9b31c4dfbc6814b85913ef936b239076e761142162372e9a41cc5",
+      "bytes": 10789
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/sky-archives/kepler-tess-single-transit-long-period-candidate.md",
+      "sha256": "54f94227b7cb7a60f1bc288b8f5b31f6a1df70243c887b4f2b89fb36bf08e512",
+      "bytes": 10869
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/sky-archives/new-periodic-variables-not-in-vsx.md",
+      "sha256": "0aa0bd49ecc0135e0e00f0f227267722079eeb49851778f7c34900df76a9467f",
+      "bytes": 9752
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/sky-archives/planet-nine-distant-tno-archival-moonshot.md",
+      "sha256": "7ac274855ca63fa781d03e5922e51724e9e9ee765c90b8bb290af423e3221acf",
+      "bytes": 8227
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/sky-archives/tess-new-vetted-transit-candidate.md",
+      "sha256": "7b9b1f2109e7c47c58bfac17ff9a4292dd4624b1fe51c09c19a109008ef4dae1",
+      "bytes": 12319
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/README.md",
+      "sha256": "ba066a343562544deca31c9012556901e8bdfd8bb1cc73656656431dff7e6e8b",
+      "bytes": 2784
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/adfgvx-1918-nine-open.md",
+      "sha256": "42e347fcf69dbb68bf52907d3bd4d81e0f15d88438dd903b0cc5a59d6c1c0232",
+      "bytes": 4814
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/beale-1-and-3.md",
+      "sha256": "afb8629e4407d87a4da38a88819517e055e9149b7b5263a712a53cf5e6f2b296",
+      "bytes": 3874
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/chinese-gold-bars.md",
+      "sha256": "e502e90f99765ce45b6c91a23a0b580fef9f035cde013e6b096ed5e77b46ebbd",
+      "bytes": 3190
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/cryptocellar-enigma-1941-remaining.md",
+      "sha256": "d7097684415eda1709164e14d5975cf42253d33ff0835a0a811f669abb1b1a47",
+      "bytes": 5195
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/cryptocellar-truppenschluessel-1941.md",
+      "sha256": "13a4f51a054faa4d6ecdf5971db4e4daf5284a46201ba6532bb41993942e6484",
+      "bytes": 5799
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/dagapeyeff-1939.md",
+      "sha256": "dd4d403b0605ccf6b82887ea59f307fc1c5d9690181c94d9ecf2631d67f12019",
+      "bytes": 3929
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/debosnys-1883.md",
+      "sha256": "796877b1ba6a1d452ae57838426b0223e436d6d1aef5f4b64bd9b9977f0f0102",
+      "bytes": 3173
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/dorabella-1897.md",
+      "sha256": "d437c0ea477f6e3f87035c67507443b155c1be8a8d75cac10a9764c49bc20cc6",
+      "bytes": 3213
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/kryptos-k4-method.md",
+      "sha256": "a0e3155c86031f6f92ccfcf66c8035a1f0103e2b9502fa74662aac10ca95ecb5",
+      "bytes": 4167
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/liber-primus-lp2.md",
+      "sha256": "f210021105b867d7037c4d5e48fc1ecae165a9cf863cd3da1276b997da999dec",
+      "bytes": 3572
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/mtc3-double-transposition-reloaded.md",
+      "sha256": "6127fd433b3a3e4f626776814b9297c630b6b950c805ccbc1fe6efcf5ff2efb6",
+      "bytes": 4559
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/mtc3-hutton-cipher-part-5.md",
+      "sha256": "1571c35c390af2630a30d9f1a43022af7c2ed2d86de5f4fc63aa2257974d5498",
+      "bytes": 3951
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/mtc3-spanish-strip-cipher-3.md",
+      "sha256": "f8f10ef80a3af0ba86967caaf240d7dbec164df33a1799cd1682b3d345996b69",
+      "bytes": 4152
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/mtc3-spirale-4.md",
+      "sha256": "c3e998bad47764196204601e7046454dc607db6fbabe3dc0dd0920eb1971789e",
+      "bytes": 3729
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/noita-eye-messages.md",
+      "sha256": "7f173878186ac14a2d15d18177fb9a8acd9dca745481565469e7884ae48df047",
+      "bytes": 3825
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/tamam-shud-initialism.md",
+      "sha256": "c67d6efad648011b5c56b387e7f4fcc6c12ca7b3f2419e47d4b35a9ac0c33a5a",
+      "bytes": 3514
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/unbroken-ciphers/ultimate-enigma-challenge.md",
+      "sha256": "fd24cd983899262e6144e73cdc1ab49f7c5b3039a9c17ea87dec96bb2fd5c16d",
+      "bytes": 3799
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/README.md",
+      "sha256": "41d27e83ac1e70ce4b811a0950aa5018d67c168153028c3662984220b5a54f46",
+      "bytes": 3167
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/cypro-minoan-signary-crossscript.md",
+      "sha256": "c95c502f6c3d0494dcfc956c253c2dd3b06f6ef33b6feb6aaa7d334b8aaa9320",
+      "bytes": 5334
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/ebl-fragment-identification.md",
+      "sha256": "56a70a8b79c1beaaadc02b0be1c0e3aa3ec54369956a642fd49b1522865cac89",
+      "bytes": 4351
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/indus-decipherment.md",
+      "sha256": "8d4f12746e68a1de5c80fad020f85029d872c7981aed8c27cc5abe641b4c14f4",
+      "bytes": 3722
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/indus-temporal-heldout-structure.md",
+      "sha256": "ee806bca91dcbe530e237e93d802238985c917bcd59f24d15f8af9c706ab1ed5",
+      "bytes": 5944
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/isthmian-family-bayes.md",
+      "sha256": "a3b0a86a104eaf6f01f019daa72615768b6c85a3d20b6f1b2dfa467553eac859",
+      "bytes": 3939
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/khitan-small-unread-graphemes.md",
+      "sha256": "ec6b197b76f1310561b3b83061837db83b08cdf487eba004f53d61079bc8def2",
+      "bytes": 4430
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/linear-a-kuro-arithmetic.md",
+      "sha256": "f76b6bc3fee9720d86b98d464354d36401baa985b32151f01e06b385319a99de",
+      "bytes": 6165
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/linear-a-language-identification.md",
+      "sha256": "c3b291032d39fd62f083951ff2a9ebc43910965f78cbcdb7e08782d1735a9b46",
+      "bytes": 3953
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/linear-a-morphology-heldout.md",
+      "sha256": "43d12b47514b939b38ef9ee293aa8e55e93471df7d21a5e948c5ff6f1be0c9bb",
+      "bytes": 4867
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/linear-elamite-residual-signs.md",
+      "sha256": "b9e80eea374ea6ac42ad5e006205b78006b1746eb6bb60814a88f3c2712565ce",
+      "bytes": 4493
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/meroitic-semantic-induction.md",
+      "sha256": "fda36fc7fea746fd5905a5e12bad738352ccabc57357018c2ba2692d587de847",
+      "bytes": 3952
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/oracle-bone-undeciphered-chars.md",
+      "sha256": "908347530b2fd568afc98460f91f1421e3f56f45d69d9d6de3c8ce46f95d544a",
+      "bytes": 4372
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/proto-elamite-accounting-balance.md",
+      "sha256": "d1380f06496544adcf240abffb0b2d8ec871918eb4d19a005dd0af11040f784e",
+      "bytes": 6530
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/rongorongo-graphemes-parallels.md",
+      "sha256": "76b7dfd2d62895943304af0fd40cfbbfb74377b2b41deb1ca0cef1b512250baa",
+      "bytes": 6033
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/voynich-generator-heldout-fingerprints.md",
+      "sha256": "21365105ce612d23d2fc60fbf79a57e93f7e6ea4a8b0f3ea4da53de8c5e7c02e",
+      "bytes": 6383
+    },
+    {
+      "path": "v3r1t4s/known-unknowns/undeciphered-scripts/voynich-plaintext.md",
+      "sha256": "9998697e3ecf8351f1dea89471eb52c7315165aac47287096d494d183c4328cd",
+      "bytes": 3976
+    },
+    {
+      "path": "v3r1t4s/llms.txt",
+      "sha256": "c767aa076a712434d63ed1e15d7a7f256d32b185f17ba91a513785a3dc3375ac",
+      "bytes": 2043
+    },
+    {
+      "path": "v3r1t4s/sealed-envelopes/bouchaudy-cipher-machines/README.md",
+      "sha256": "b46343182d0596b98ae00e39236546165bcc0dd9562e9c1bc8aba7a9a42bf342",
+      "bytes": 2445
+    }
+  ],
+  "recoveryArchive": "/private/tmp/commons-retired-reference-20261015T001409Z",
+  "note": "Source and nested Git metadata were moved outside the project; Commons app, frontend work, wiki, and local data remain.",
+  "staleGeneratedFrontendBuildRemoved": true,
+  "staleGeneratedFrontendFiles": [
+    "assets/index-CGkdxqhj.js"
+  ]
+}

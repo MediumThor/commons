@@ -1,0 +1,4 @@
+owner: coordinator
+section: INT
+status: assigned
+note: Integration stays with the coordinator. Feature agents must not claim this section.

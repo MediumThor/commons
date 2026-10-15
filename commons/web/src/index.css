@@ -1,0 +1,180 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/inter';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Village palette: paper, sage and ink with a warm orange accent; dark mode is deep olive dusk. */
+:root {
+  --bg: #f6f5ef;
+  --bg-elev: #fffef9;
+  --bg-elev-2: #fbfaf3;
+  --bg-sunken: #ecebdf;
+  --fg: #263b32;
+  --fg-muted: #626d5d;
+  --fg-subtle: #858b78;
+  --line: rgb(38 59 50 / 0.1);
+  --line-strong: rgb(38 59 50 / 0.18);
+  --glass: rgb(255 254 247 / 0.78);
+  --glass-line: rgb(38 59 50 / 0.08);
+  --orange: #d6633e;
+  --pink: #c8615a;
+  --indigo: #7a72a6;
+  --blue: #4f84a3;
+  --green: #5f8f45;
+  --red: #c4553f;
+  --yellow: #d9a441;
+  --teal: #4f9284;
+  --shadow: 0 1px 2px rgb(38 59 50 / 0.05), 0 8px 24px -12px rgb(38 59 50 / 0.16);
+  --shadow-lg: 0 2px 6px rgb(38 59 50 / 0.05), 0 32px 64px -24px rgb(38 59 50 / 0.3);
+}
+
+.dark {
+  --bg: #11150f;
+  --bg-elev: #1a2017;
+  --bg-elev-2: #222a1e;
+  --bg-sunken: #0d100b;
+  --fg: #eef0e2;
+  --fg-muted: #aab19c;
+  --fg-subtle: #7c8470;
+  --line: rgb(238 240 226 / 0.09);
+  --line-strong: rgb(238 240 226 / 0.16);
+  --glass: rgb(24 30 21 / 0.74);
+  --glass-line: rgb(238 240 226 / 0.08);
+  --orange: #e97d55;
+  --pink: #df7a72;
+  --indigo: #a39bd6;
+  --blue: #7fb0cc;
+  --green: #8fbf6c;
+  --red: #e2735c;
+  --yellow: #ecc066;
+  --teal: #7cc0b0;
+  --shadow: 0 1px 0 rgb(255 255 255 / 0.04) inset, 0 8px 24px -12px rgb(0 0 0 / 0.8);
+  --shadow-lg: 0 1px 0 rgb(255 255 255 / 0.06) inset, 0 40px 80px -24px rgb(0 0 0 / 0.9);
+}
+
+@theme inline {
+  --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'Inter Variable', 'Segoe UI', system-ui, sans-serif;
+  --font-rounded: ui-rounded, 'SF Pro Rounded', -apple-system, BlinkMacSystemFont, 'Inter Variable', system-ui, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace;
+
+  --color-bg: var(--bg);
+  --color-elev: var(--bg-elev);
+  --color-elev-2: var(--bg-elev-2);
+  --color-sunken: var(--bg-sunken);
+  --color-fg: var(--fg);
+  --color-muted: var(--fg-muted);
+  --color-subtle: var(--fg-subtle);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-orange: var(--orange);
+  --color-pink: var(--pink);
+  --color-indigo: var(--indigo);
+  --color-blue: var(--blue);
+  --color-green: var(--green);
+  --color-red: var(--red);
+  --color-yellow: var(--yellow);
+  --color-teal: var(--teal);
+
+  --shadow-card: var(--shadow);
+  --shadow-float: var(--shadow-lg);
+  --ease-ios: cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+@layer base {
+  html {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: 'cv11', 'ss01';
+    scroll-behavior: smooth;
+    scroll-padding-top: 88px;
+  }
+  body { min-height: 100dvh; letter-spacing: -0.01em; }
+  ::selection { background: color-mix(in srgb, var(--orange) 35%, transparent); }
+  :focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; border-radius: 6px; }
+  button { cursor: pointer; }
+  button:disabled { cursor: not-allowed; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .glass {
+    background: var(--glass);
+    border: 1px solid var(--glass-line);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .card {
+    background: var(--bg-elev);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow);
+  }
+  .hairline { border-color: var(--line); }
+  .text-gradient {
+    background: linear-gradient(100deg, var(--orange) 0%, var(--pink) 55%, var(--indigo) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .eyebrow {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--fg-subtle);
+  }
+  .grid-fade {
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size: 48px 48px;
+    mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, black 30%, transparent 75%);
+  }
+  .scrollbar-none { scrollbar-width: none; }
+  .scrollbar-none::-webkit-scrollbar { display: none; }
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 0.7; }
+  80%, 100% { transform: scale(2.4); opacity: 0; }
+}
+.live-dot { position: relative; }
+.live-dot::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  background: currentColor;
+  animation: pulse-ring 2s var(--ease-ios) infinite;
+}
+
+@keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-1.5px); } }
+@keyframes twinkle { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
+@keyframes flicker { 0%, 100% { opacity: 0.9; } 45% { opacity: 0.65; } 55% { opacity: 1; } }
+/* Oracle Green. Agent loops are stepped; only state changes move sprites (see world/World.tsx). */
+.w-target { cursor: pointer; outline: none; }
+.w-hl { fill: #fffef3; fill-opacity: 0; stroke: #fffef3; stroke-opacity: 0; stroke-width: 3; transition: fill-opacity 0.15s, stroke-opacity 0.15s; }
+.w-target:hover .w-hl { fill-opacity: 0.16; stroke-opacity: 0.7; }
+.w-target:focus-visible .w-hl { fill-opacity: 0.2; stroke: var(--orange); stroke-opacity: 1; }
+@keyframes w-bob { 0%, 100% { translate: 0 0; } 50% { translate: 0 -1.5px; } }
+@keyframes w-type { 0%, 100% { translate: 0 0; } 50% { translate: 0 -1px; } }
+@keyframes w-step { 0%, 100% { translate: 0 0; } 50% { translate: 0 -2.5px; } }
+@keyframes w-flutter { 0%, 100% { translate: 0 0; } 50% { translate: 10px -6px; } }
+@keyframes w-water { 50% { opacity: 0.4; } }
+.w-idle, .v-bob { animation: w-bob 2.6s steps(2, end) infinite; }
+.w-work { animation: w-type 0.9s steps(2, end) infinite; }
+.w-walk { animation: w-step 0.32s steps(2, end) infinite; }
+.w-stale { filter: grayscale(0.7); opacity: 0.72; }
+.w-flutter { animation: w-flutter 4s steps(4, end) infinite; }
+.w-water { animation: w-water 3s steps(2, end) infinite; }
+.w-flicker { animation: flicker 2.8s ease-in-out infinite; }
+.w-twinkle { animation: twinkle 3.2s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .w-idle, .v-bob, .w-work, .w-walk, .w-flutter, .w-water, .w-flicker, .w-twinkle { animation: none !important; }
+}
